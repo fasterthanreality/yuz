@@ -1,0 +1,919 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-16",
+  "scope": "Editorial prototype. Connections express proximity/influence, not a definitive genealogical claim. Emergence years approximate and frequently debated.",
+  "genres": [
+    {
+      "id": "hypnagogic",
+      "name": "Hypnagogic pop",
+      "family": "memory",
+      "year": 2008,
+      "x": 115,
+      "y": 125,
+      "type": "scene",
+      "description": "Degraded pop-memory, warped nostalgia and DIY recordings that blurred the line between familiar media and dream."
+    },
+    {
+      "id": "chillwave",
+      "name": "Chillwave",
+      "family": "memory",
+      "year": 2009,
+      "x": 330,
+      "y": 125,
+      "type": "scene",
+      "description": "Hazy synthesizers, softened beats and nostalgic pop textures circulated through late-2000s music blogs."
+    },
+    {
+      "id": "vaporwave",
+      "name": "Vaporwave",
+      "family": "memory",
+      "year": 2010,
+      "x": 250,
+      "y": 210,
+      "type": "microgenre",
+      "description": "An internet-born style of slowed samples, imagined corporate spaces and unsettling nostalgia for familiar commercial sound."
+    },
+    {
+      "id": "eccojams",
+      "name": "Eccojams",
+      "family": "memory",
+      "year": 2010,
+      "x": 80,
+      "y": 195,
+      "type": "microgenre",
+      "description": "Short pop fragments looped, slowed and transformed into hypnotic repetition; an influential precursor to vaporwave."
+    },
+    {
+      "id": "mallsoft",
+      "name": "Mallsoft",
+      "family": "memory",
+      "year": 2012,
+      "x": 65,
+      "y": 270,
+      "type": "microgenre",
+      "description": "Reverberant retail ambience: distant muzak, public-space field recordings and the sound of an empty shopping centre."
+    },
+    {
+      "id": "futurefunk",
+      "name": "Future funk",
+      "family": "memory",
+      "year": 2012,
+      "x": 280,
+      "y": 278,
+      "type": "microgenre",
+      "description": "Sample-driven disco and city-pop edits with brighter momentum and dance rhythms than much early vaporwave."
+    },
+    {
+      "id": "signalwave",
+      "name": "Signalwave",
+      "family": "memory",
+      "year": 2012,
+      "x": 455,
+      "y": 196,
+      "type": "microgenre",
+      "description": "Weather broadcasts, station idents and other transmissions edited into the sound of unreliable media memory."
+    },
+    {
+      "id": "slushwave",
+      "name": "Slushwave",
+      "family": "memory",
+      "year": 2014,
+      "x": 454,
+      "y": 276,
+      "type": "microgenre",
+      "description": "Slow-moving ambient vaporwave: long-form, densely reverberant loops designed for immersion."
+    },
+    {
+      "id": "hardvapour",
+      "name": "Hardvapour",
+      "family": "memory",
+      "year": 2015,
+      "x": 207,
+      "y": 347,
+      "type": "microgenre",
+      "description": "An abrasive response to vaporwave, bringing gabber, hardcore and industrial intensity into its digital mythology."
+    },
+    {
+      "id": "barber",
+      "name": "Barber beats",
+      "family": "memory",
+      "year": 2020,
+      "x": 377,
+      "y": 347,
+      "type": "microgenre",
+      "description": "A later vaporwave-adjacent style centred on looped instrumental groove, downtempo and lounge samples."
+    },
+    {
+      "id": "dreampunk",
+      "name": "Dreampunk",
+      "family": "memory",
+      "year": 2014,
+      "x": 60,
+      "y": 347,
+      "type": "microgenre",
+      "description": "Cinematic ambient atmospheres and imagined nocturnal futures, often connected to vaporwave communities."
+    },
+    {
+      "id": "seapunk",
+      "name": "Seapunk",
+      "family": "memory",
+      "year": 2011,
+      "x": 453,
+      "y": 105,
+      "type": "scene",
+      "description": "A short-lived Tumblr-era scene joining aqueous cyber-aesthetics with eclectic electronic dance and pop."
+    },
+    {
+      "id": "witch",
+      "name": "Witch house",
+      "family": "memory",
+      "year": 2009,
+      "x": 500,
+      "y": 360,
+      "type": "scene",
+      "description": "Heavily processed voices, slow tempos, industrial shadows and occult-coded internet imagery."
+    },
+    {
+      "id": "electropop",
+      "name": "Electropop",
+      "family": "pop",
+      "year": 2000,
+      "x": 660,
+      "y": 95,
+      "type": "precursor",
+      "description": "Pop built around electronic production and synthesis; a broad pre-existing language later exaggerated by online scenes."
+    },
+    {
+      "id": "chiptune",
+      "name": "Chiptune",
+      "family": "pop",
+      "year": 1990,
+      "x": 680,
+      "y": 163,
+      "type": "precursor",
+      "description": "Music built from videogame sound-chip techniques, deeply influential in internet-era DIY electronic production."
+    },
+    {
+      "id": "bitpop",
+      "name": "Bitpop",
+      "family": "pop",
+      "year": 2002,
+      "x": 735,
+      "y": 224,
+      "type": "scene",
+      "description": "Pop melodies fused with videogame timbres, digital noise and chip-inspired synthesis."
+    },
+    {
+      "id": "bubblegum",
+      "name": "Bubblegum bass",
+      "family": "pop",
+      "year": 2013,
+      "x": 770,
+      "y": 128,
+      "type": "microgenre",
+      "description": "Hyperreal, glossy, plastic-sounding pop associated with the PC Music movement and related producers."
+    },
+    {
+      "id": "nightcore",
+      "name": "Nightcore",
+      "family": "pop",
+      "year": 2002,
+      "x": 960,
+      "y": 96,
+      "type": "scene",
+      "description": "Sped-up and pitched-up transformations of existing tracks, amplified by video and fan-upload cultures."
+    },
+    {
+      "id": "happyhardcore",
+      "name": "Happy hardcore",
+      "family": "pop",
+      "year": 1990,
+      "x": 1150,
+      "y": 96,
+      "type": "precursor",
+      "description": "Euphoric high-speed rave music with bright melodies; a historical influence on some accelerated internet pop."
+    },
+    {
+      "id": "hyperpop",
+      "name": "Hyperpop",
+      "family": "pop",
+      "year": 2019,
+      "x": 939,
+      "y": 219,
+      "type": "umbrella",
+      "description": "A contested umbrella for maximalist and digitally manipulated pop, spanning different scenes and generations."
+    },
+    {
+      "id": "digicore",
+      "name": "Digicore",
+      "family": "pop",
+      "year": 2019,
+      "x": 1110,
+      "y": 159,
+      "type": "scene",
+      "description": "A Discord- and SoundCloud-linked community mixing pop distortion, trap, pitch processing and DIY collaboration."
+    },
+    {
+      "id": "dariacore",
+      "name": "Dariacore",
+      "family": "pop",
+      "year": 2021,
+      "x": 1080,
+      "y": 279,
+      "type": "microgenre",
+      "description": "Breakneck, meme-literate sample collage associated with Jane Remover’s leroy project and online remix culture."
+    },
+    {
+      "id": "scenecore",
+      "name": "Scenecore",
+      "family": "pop",
+      "year": 2020,
+      "x": 1223,
+      "y": 225,
+      "type": "scene",
+      "description": "A loose internet scene revisiting MySpace-era electronic emo and scene aesthetics through contemporary production."
+    },
+    {
+      "id": "glitchpop",
+      "name": "Glitch pop",
+      "family": "pop",
+      "year": 2000,
+      "x": 735,
+      "y": 279,
+      "type": "scene",
+      "description": "Pop songwriting incorporating edits, digital stutters and fragmented audio as prominent musical material."
+    },
+    {
+      "id": "deconstructed",
+      "name": "Deconstructed club",
+      "family": "experimental",
+      "year": 2013,
+      "x": 794,
+      "y": 383,
+      "type": "scene",
+      "description": "Club-derived music that fractures rhythmic expectations, foregrounding sound design and discontinuous energy."
+    },
+    {
+      "id": "postclub",
+      "name": "Post-club",
+      "family": "experimental",
+      "year": 2015,
+      "x": 944,
+      "y": 446,
+      "type": "umbrella",
+      "description": "A loose term for club-informed experiments that depart from conventional dance-floor structures."
+    },
+    {
+      "id": "weightless",
+      "name": "Weightless grime",
+      "family": "experimental",
+      "year": 2013,
+      "x": 647,
+      "y": 455,
+      "type": "scene",
+      "description": "Sparse, suspended instrumental grime often replacing drum impact with atmosphere and negative space."
+    },
+    {
+      "id": "futuregrime",
+      "name": "Future grime",
+      "family": "experimental",
+      "year": 2012,
+      "x": 577,
+      "y": 379,
+      "type": "scene",
+      "description": "An informal tag for abstract, synthesizer-forward extensions of instrumental grime."
+    },
+    {
+      "id": "harddrum",
+      "name": "Hard drum",
+      "family": "experimental",
+      "year": 2016,
+      "x": 1124,
+      "y": 455,
+      "type": "scene",
+      "description": "Percussion-forward UK club experimentation informed by multiple rhythmic traditions and dance scenes."
+    },
+    {
+      "id": "wonky",
+      "name": "Wonky",
+      "family": "experimental",
+      "year": 2008,
+      "x": 632,
+      "y": 321,
+      "type": "scene",
+      "description": "Lopsided electronic rhythms, dislocated synth harmonies and off-centre beat programming."
+    },
+    {
+      "id": "glitch",
+      "name": "Glitch",
+      "family": "experimental",
+      "year": 1998,
+      "x": 547,
+      "y": 247,
+      "type": "precursor",
+      "description": "Clicks, errors and digital artifacts repurposed as musical material, predating many web-born microgenres."
+    },
+    {
+      "id": "breakcore",
+      "name": "Breakcore",
+      "family": "experimental",
+      "year": 1998,
+      "x": 552,
+      "y": 522,
+      "type": "precursor",
+      "description": "Breakbeat acceleration, extreme edits and dense sample collisions; older than its later online revivals."
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle revival",
+      "family": "experimental",
+      "year": 2019,
+      "x": 758,
+      "y": 540,
+      "type": "scene",
+      "description": "New waves of jungle and breakbeat production circulated through online scenes, informed by 1990s dance history."
+    },
+    {
+      "id": "cloudrap",
+      "name": "Cloud rap",
+      "family": "rap",
+      "year": 2009,
+      "x": 215,
+      "y": 477,
+      "type": "scene",
+      "description": "Hazy pads, submerged drums and atmospheric production associated with early internet rap networks."
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud rap",
+      "family": "rap",
+      "year": 2014,
+      "x": 283,
+      "y": 554,
+      "type": "umbrella",
+      "description": "A broad platform-linked rap wave spanning DIY recording, distorted mixes, emo influences and regional styles."
+    },
+    {
+      "id": "emorap",
+      "name": "Emo rap",
+      "family": "rap",
+      "year": 2010,
+      "x": 93,
+      "y": 545,
+      "type": "scene",
+      "description": "Rap integrated with confessional emo, rock guitar and melodic writing, accelerated by online communities."
+    },
+    {
+      "id": "plugg",
+      "name": "Plugg",
+      "family": "rap",
+      "year": 2014,
+      "x": 451,
+      "y": 478,
+      "type": "scene",
+      "description": "Bright synth loops, buoyant melodies and minimal trap drums associated with independent producer networks."
+    },
+    {
+      "id": "pluggnb",
+      "name": "Pluggnb",
+      "family": "rap",
+      "year": 2017,
+      "x": 482,
+      "y": 558,
+      "type": "microgenre",
+      "description": "Plugg rhythms filtered through lush R&B chords, melodic vocal runs and atmospheric synth textures."
+    },
+    {
+      "id": "rage",
+      "name": "Rage",
+      "family": "rap",
+      "year": 2019,
+      "x": 471,
+      "y": 630,
+      "type": "microgenre",
+      "description": "High-impact trap with saturated synthetic leads and emphatic, high-energy rhythmic arrangements."
+    },
+    {
+      "id": "sigilkore",
+      "name": "Sigilkore",
+      "family": "rap",
+      "year": 2019,
+      "x": 282,
+      "y": 645,
+      "type": "microgenre",
+      "description": "Occult-coded online rap centred on chopped mixing, bitcrushing, pitch manipulation and abrasive digital effects."
+    },
+    {
+      "id": "hexd",
+      "name": "HexD",
+      "family": "rap",
+      "year": 2019,
+      "x": 112,
+      "y": 628,
+      "type": "microgenre",
+      "description": "Aggressively bitcrushed, pitch-shifted rap and trance-associated mixing aesthetic from internet communities."
+    },
+    {
+      "id": "jerkrevival",
+      "name": "Jerk revival",
+      "family": "rap",
+      "year": 2022,
+      "x": 237,
+      "y": 725,
+      "type": "scene",
+      "description": "Off-kilter, quick-moving internet rap reworking the earlier jerk sound with new synth and low-end approaches."
+    },
+    {
+      "id": "krushclub",
+      "name": "Krushclub",
+      "family": "rap",
+      "year": 2022,
+      "x": 484,
+      "y": 723,
+      "type": "microgenre",
+      "description": "Club-energy rap and electronic hybrids with heavily processed vocal and bass sounds."
+    },
+    {
+      "id": "phonk",
+      "name": "Phonk",
+      "family": "rap",
+      "year": 2012,
+      "x": 81,
+      "y": 710,
+      "type": "scene",
+      "description": "Memphis-rap-derived sample textures and distorted underground hip-hop practices, later taking varied forms online."
+    },
+    {
+      "id": "driftphonk",
+      "name": "Drift phonk",
+      "family": "rap",
+      "year": 2019,
+      "x": 76,
+      "y": 789,
+      "type": "microgenre",
+      "description": "A later electronically intensified phonk branch associated with cowbells, heavy bass and short-form video."
+    },
+    {
+      "id": "jerseyclub",
+      "name": "Jersey club",
+      "family": "club",
+      "year": 2000,
+      "x": 710,
+      "y": 641,
+      "type": "precursor",
+      "description": "Newark-rooted club music known for triplet kick patterns, chops and a specific regional dance tradition."
+    },
+    {
+      "id": "baltimore",
+      "name": "Baltimore club",
+      "family": "club",
+      "year": 1990,
+      "x": 673,
+      "y": 719,
+      "type": "precursor",
+      "description": "Baltimore dance music built from chopped breaks, repeated vocal hooks and hard physical club rhythms."
+    },
+    {
+      "id": "ballroom",
+      "name": "Ballroom beats",
+      "family": "club",
+      "year": 1990,
+      "x": 878,
+      "y": 621,
+      "type": "precursor",
+      "description": "Sounds shaped by Black and Latin queer ballroom culture; a living social tradition, not merely a production preset."
+    },
+    {
+      "id": "footwork",
+      "name": "Footwork",
+      "family": "club",
+      "year": 2000,
+      "x": 882,
+      "y": 713,
+      "type": "precursor",
+      "description": "Fast, syncopated Chicago music inseparable from its footwork dancing communities."
+    },
+    {
+      "id": "juke",
+      "name": "Juke",
+      "family": "club",
+      "year": 1990,
+      "x": 1033,
+      "y": 711,
+      "type": "precursor",
+      "description": "Chicago club sound whose rapid patterns and local history helped shape footwork."
+    },
+    {
+      "id": "ukfunky",
+      "name": "UK funky",
+      "family": "club",
+      "year": 2006,
+      "x": 1063,
+      "y": 571,
+      "type": "scene",
+      "description": "London-rooted house-related sound with syncopated percussion and Caribbean and African dance influences."
+    },
+    {
+      "id": "gqom",
+      "name": "Gqom",
+      "family": "club",
+      "year": 2010,
+      "x": 1187,
+      "y": 622,
+      "type": "scene",
+      "description": "Durban-rooted, skeletal and percussive club music with distinctive rhythmic space and local cultural origins."
+    },
+    {
+      "id": "neoperreo",
+      "name": "Neo-perreo",
+      "family": "club",
+      "year": 2015,
+      "x": 1037,
+      "y": 789,
+      "type": "scene",
+      "description": "Internet-connected experimental reggaeton and perreo, pushing synthetic textures and alternative club aesthetics."
+    },
+    {
+      "id": "bailefunk",
+      "name": "Baile funk",
+      "family": "club",
+      "year": 1980,
+      "x": 1194,
+      "y": 710,
+      "type": "precursor",
+      "description": "Brazilian funk culture rooted in Rio de Janeiro; connected to evolving local scenes and production lineages."
+    },
+    {
+      "id": "mandelao",
+      "name": "Funk mandelão",
+      "family": "club",
+      "year": 2017,
+      "x": 1180,
+      "y": 790,
+      "type": "scene",
+      "description": "A São Paulo-linked baile funk form featuring spare, hard-edged electronic percussion and bass."
+    }
+  ],
+  "links": [
+    {
+      "source": "hypnagogic",
+      "target": "vaporwave",
+      "type": "influence"
+    },
+    {
+      "source": "chillwave",
+      "target": "vaporwave",
+      "type": "adjacent"
+    },
+    {
+      "source": "vaporwave",
+      "target": "eccojams",
+      "type": "influence"
+    },
+    {
+      "source": "vaporwave",
+      "target": "mallsoft",
+      "type": "branch"
+    },
+    {
+      "source": "vaporwave",
+      "target": "futurefunk",
+      "type": "branch"
+    },
+    {
+      "source": "vaporwave",
+      "target": "signalwave",
+      "type": "branch"
+    },
+    {
+      "source": "vaporwave",
+      "target": "slushwave",
+      "type": "branch"
+    },
+    {
+      "source": "vaporwave",
+      "target": "hardvapour",
+      "type": "reaction"
+    },
+    {
+      "source": "vaporwave",
+      "target": "barber",
+      "type": "related"
+    },
+    {
+      "source": "vaporwave",
+      "target": "dreampunk",
+      "type": "related"
+    },
+    {
+      "source": "vaporwave",
+      "target": "seapunk",
+      "type": "adjacent"
+    },
+    {
+      "source": "witch",
+      "target": "vaporwave",
+      "type": "adjacent"
+    },
+    {
+      "source": "futurefunk",
+      "target": "chillwave",
+      "type": "related"
+    },
+    {
+      "source": "mallsoft",
+      "target": "signalwave",
+      "type": "related"
+    },
+    {
+      "source": "dreampunk",
+      "target": "slushwave",
+      "type": "related"
+    },
+    {
+      "source": "witch",
+      "target": "cloudrap",
+      "type": "related"
+    },
+    {
+      "source": "chiptune",
+      "target": "bitpop",
+      "type": "influence"
+    },
+    {
+      "source": "electropop",
+      "target": "bubblegum",
+      "type": "influence"
+    },
+    {
+      "source": "bitpop",
+      "target": "hyperpop",
+      "type": "related"
+    },
+    {
+      "source": "nightcore",
+      "target": "hyperpop",
+      "type": "influence"
+    },
+    {
+      "source": "happyhardcore",
+      "target": "nightcore",
+      "type": "related"
+    },
+    {
+      "source": "bubblegum",
+      "target": "hyperpop",
+      "type": "influence"
+    },
+    {
+      "source": "hyperpop",
+      "target": "digicore",
+      "type": "overlap"
+    },
+    {
+      "source": "hyperpop",
+      "target": "dariacore",
+      "type": "related"
+    },
+    {
+      "source": "digicore",
+      "target": "dariacore",
+      "type": "related"
+    },
+    {
+      "source": "digicore",
+      "target": "scenecore",
+      "type": "related"
+    },
+    {
+      "source": "glitchpop",
+      "target": "bubblegum",
+      "type": "related"
+    },
+    {
+      "source": "glitchpop",
+      "target": "hyperpop",
+      "type": "related"
+    },
+    {
+      "source": "glitch",
+      "target": "glitchpop",
+      "type": "influence"
+    },
+    {
+      "source": "dariacore",
+      "target": "jerseyclub",
+      "type": "influence"
+    },
+    {
+      "source": "dariacore",
+      "target": "breakcore",
+      "type": "related"
+    },
+    {
+      "source": "dariacore",
+      "target": "nightcore",
+      "type": "related"
+    },
+    {
+      "source": "deconstructed",
+      "target": "postclub",
+      "type": "overlap"
+    },
+    {
+      "source": "deconstructed",
+      "target": "harddrum",
+      "type": "related"
+    },
+    {
+      "source": "deconstructed",
+      "target": "jerseyclub",
+      "type": "influence"
+    },
+    {
+      "source": "deconstructed",
+      "target": "baltimore",
+      "type": "influence"
+    },
+    {
+      "source": "deconstructed",
+      "target": "ballroom",
+      "type": "influence"
+    },
+    {
+      "source": "deconstructed",
+      "target": "footwork",
+      "type": "influence"
+    },
+    {
+      "source": "deconstructed",
+      "target": "futuregrime",
+      "type": "related"
+    },
+    {
+      "source": "postclub",
+      "target": "weightless",
+      "type": "related"
+    },
+    {
+      "source": "futuregrime",
+      "target": "weightless",
+      "type": "related"
+    },
+    {
+      "source": "wonky",
+      "target": "futuregrime",
+      "type": "related"
+    },
+    {
+      "source": "ukfunky",
+      "target": "harddrum",
+      "type": "influence"
+    },
+    {
+      "source": "gqom",
+      "target": "harddrum",
+      "type": "influence"
+    },
+    {
+      "source": "ballroom",
+      "target": "harddrum",
+      "type": "related"
+    },
+    {
+      "source": "juke",
+      "target": "footwork",
+      "type": "influence"
+    },
+    {
+      "source": "footwork",
+      "target": "jungle",
+      "type": "related"
+    },
+    {
+      "source": "breakcore",
+      "target": "jungle",
+      "type": "related"
+    },
+    {
+      "source": "ukfunky",
+      "target": "deconstructed",
+      "type": "related"
+    },
+    {
+      "source": "neoperreo",
+      "target": "deconstructed",
+      "type": "related"
+    },
+    {
+      "source": "bailefunk",
+      "target": "mandelao",
+      "type": "branch"
+    },
+    {
+      "source": "bailefunk",
+      "target": "neoperreo",
+      "type": "related"
+    },
+    {
+      "source": "neoperreo",
+      "target": "postclub",
+      "type": "related"
+    },
+    {
+      "source": "cloudrap",
+      "target": "soundcloud",
+      "type": "influence"
+    },
+    {
+      "source": "soundcloud",
+      "target": "emorap",
+      "type": "overlap"
+    },
+    {
+      "source": "soundcloud",
+      "target": "plugg",
+      "type": "related"
+    },
+    {
+      "source": "plugg",
+      "target": "pluggnb",
+      "type": "branch"
+    },
+    {
+      "source": "plugg",
+      "target": "rage",
+      "type": "related"
+    },
+    {
+      "source": "soundcloud",
+      "target": "rage",
+      "type": "related"
+    },
+    {
+      "source": "hexd",
+      "target": "sigilkore",
+      "type": "related"
+    },
+    {
+      "source": "sigilkore",
+      "target": "krushclub",
+      "type": "related"
+    },
+    {
+      "source": "hexd",
+      "target": "digicore",
+      "type": "related"
+    },
+    {
+      "source": "sigilkore",
+      "target": "digicore",
+      "type": "related"
+    },
+    {
+      "source": "soundcloud",
+      "target": "jerkrevival",
+      "type": "related"
+    },
+    {
+      "source": "plugg",
+      "target": "jerkrevival",
+      "type": "influence"
+    },
+    {
+      "source": "phonk",
+      "target": "driftphonk",
+      "type": "branch"
+    },
+    {
+      "source": "cloudrap",
+      "target": "phonk",
+      "type": "related"
+    },
+    {
+      "source": "cloudrap",
+      "target": "hexd",
+      "type": "related"
+    },
+    {
+      "source": "rage",
+      "target": "hyperpop",
+      "type": "related"
+    },
+    {
+      "source": "krushclub",
+      "target": "hyperpop",
+      "type": "related"
+    },
+    {
+      "source": "breakcore",
+      "target": "hexd",
+      "type": "related"
+    },
+    {
+      "source": "soundcloud",
+      "target": "digicore",
+      "type": "related"
+    }
+  ]
+}
