@@ -5,59 +5,52 @@ window.YUZ_DATA = {
   "scope": "Expandable, editorially curated taxonomy of connected musical genres, scenes, approaches and descriptive terms. Not a directory of reviewed releases. Relationships are interpretive, and dates approximate.",
   "families": [
     {
-      "id": "postpunk",
-      "label": "Post-punk & guitars",
-      "heading": "POST-PUNK / GUITARS",
+      "id": "electronic",
+      "label": "Electronic",
+      "heading": "ELECTRONIC",
       "x": 260,
       "y": 40
-    },
-    {
-      "id": "idm",
-      "label": "IDM & glitch",
-      "heading": "IDM / GLITCH",
-      "x": 850,
-      "y": 40
-    },
-    {
-      "id": "ambient",
-      "label": "Ambient & sound",
-      "heading": "AMBIENT / SOUND",
-      "x": 1450,
-      "y": 40
-    },
-    {
-      "id": "folk",
-      "label": "Alternative folk",
-      "heading": "ALTERNATIVE FOLK",
-      "x": 2030,
-      "y": 40
-    },
-    {
-      "id": "industrial",
-      "label": "Industrial & wave",
-      "heading": "INDUSTRIAL / WAVE",
-      "x": 260,
-      "y": 780
     },
     {
       "id": "club",
-      "label": "Club & bass",
-      "heading": "CLUB / BASS",
+      "label": "Club",
+      "heading": "CLUB",
+      "x": 850,
+      "y": 40
+    },
+    {
+      "id": "alt-rock",
+      "label": "Alt rock",
+      "heading": "ALT ROCK",
+      "x": 1440,
+      "y": 40
+    },
+    {
+      "id": "alt-pop",
+      "label": "Alt pop",
+      "heading": "ALT POP",
+      "x": 2030,
+      "y": 40
+    },
+    {
+      "id": "acoustic",
+      "label": "Acoustic",
+      "heading": "ACOUSTIC",
+      "x": 260,
+      "y": 780
+    },
+    {
+      "id": "hip-hop",
+      "label": "Hip-hop",
+      "heading": "HIP-HOP",
       "x": 850,
       "y": 780
     },
     {
-      "id": "internet",
-      "label": "Digital cultures",
-      "heading": "DIGITAL CULTURES",
-      "x": 1450,
-      "y": 780
-    },
-    {
-      "id": "rap",
-      "label": "Hip-hop mutations",
-      "heading": "HIP-HOP MUTATIONS",
-      "x": 2030,
+      "id": "ambient",
+      "label": "Ambient",
+      "heading": "AMBIENT",
+      "x": 1440,
       "y": 780
     }
   ],
@@ -65,505 +58,505 @@ window.YUZ_DATA = {
     {
       "id": "post-punk",
       "name": "Post-punk",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1977,
       "type": "genre",
       "description": "Bass-led urgency, fractured guitars and adventurous production in music reshaping punk beyond its initial framework.",
       "anchor": true,
-      "x": 250,
-      "y": 90,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 120,
+      "layoutColumn": 0
     },
     {
       "id": "post-punk-revival",
       "name": "Post-punk revival",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 2000,
       "type": "scene",
       "description": "New generations revisiting post-punk tensions through contemporary indie and art-rock songwriting.",
       "anchor": true,
-      "x": 9,
-      "y": 133,
-      "layoutColumn": 0
+      "x": 1440,
+      "y": 120,
+      "layoutColumn": 1
     },
     {
       "id": "art-punk",
       "name": "Art punk",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1976,
       "type": "genre",
       "description": "Punk energy pushed toward angular forms, experimental structures and conceptual performance.",
       "anchor": false,
-      "x": 14,
-      "y": 62,
-      "layoutColumn": 0
+      "x": 1595,
+      "y": 120,
+      "layoutColumn": 2
     },
     {
       "id": "dance-punk",
       "name": "Dance-punk",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1979,
       "type": "genre",
       "description": "Post-punk instrumentation with taut, danceable grooves, bass patterns and rhythms borrowed from club culture.",
       "anchor": true,
-      "x": 248,
-      "y": 233,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 163,
+      "layoutColumn": 0
     },
     {
       "id": "no-wave",
       "name": "No wave",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1977,
       "type": "scene",
       "description": "A short-lived New York movement rejecting conventional rock structure through dissonance and radical performance.",
       "anchor": false,
-      "x": 467,
-      "y": 118,
-      "layoutColumn": 2
+      "x": 1440,
+      "y": 163,
+      "layoutColumn": 1
     },
     {
       "id": "noise-rock",
       "name": "Noise rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1982,
       "type": "genre",
       "description": "Rock built from feedback, abrasive tone and physical repetition rather than conventional polish.",
       "anchor": true,
-      "x": 19,
-      "y": 276,
-      "layoutColumn": 0
+      "x": 1595,
+      "y": 163,
+      "layoutColumn": 2
     },
     {
       "id": "coldwave",
       "name": "Coldwave",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1979,
       "type": "scene",
       "description": "Minimal, chilly post-punk electronics and stripped-back melancholy, especially associated with European scenes.",
       "anchor": false,
-      "x": 250,
-      "y": 161,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 206,
+      "layoutColumn": 0
     },
     {
       "id": "darkwave",
       "name": "Darkwave",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1981,
       "type": "genre",
       "description": "Melancholic post-punk and synth-based music with dark melodic and atmospheric textures.",
       "anchor": false,
-      "x": 471,
-      "y": 189,
-      "layoutColumn": 2
+      "x": 1440,
+      "y": 206,
+      "layoutColumn": 1
     },
     {
       "id": "gothic-rock",
       "name": "Gothic rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1979,
       "type": "genre",
       "description": "A darker post-punk tradition emphasising dramatic vocals, reverberant guitars and shadowed atmospheres.",
       "anchor": false,
-      "x": 12,
-      "y": 205,
-      "layoutColumn": 0
+      "x": 1595,
+      "y": 206,
+      "layoutColumn": 2
     },
     {
       "id": "dream-pop",
       "name": "Dream pop",
-      "family": "postpunk",
+      "family": "alt-pop",
       "year": 1982,
       "type": "genre",
       "description": "Hazy, immersive melodic pop built on textural guitar and studio atmosphere.",
       "anchor": true,
-      "x": 251,
-      "y": 376,
-      "layoutColumn": 1
+      "x": 1875,
+      "y": 120,
+      "layoutColumn": 0
     },
     {
       "id": "shoegaze",
       "name": "Shoegaze",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1988,
       "type": "genre",
       "description": "Dense, effects-treated guitar layers, blurred vocals and immersive volume.",
       "anchor": true,
-      "x": 21,
-      "y": 419,
+      "x": 1285,
+      "y": 249,
       "layoutColumn": 0
     },
     {
       "id": "blackgaze",
       "name": "Blackgaze",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 2005,
       "type": "hybrid",
       "description": "A crossing of black-metal intensity and shoegaze texture.",
       "anchor": false,
-      "x": 478,
-      "y": 261,
-      "layoutColumn": 2
+      "x": 1440,
+      "y": 249,
+      "layoutColumn": 1
     },
     {
       "id": "post-rock",
       "name": "Post-rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1991,
       "type": "genre",
       "description": "Rock instrumentation used for long-form texture, repetition, dynamics and often non-vocal forms.",
       "anchor": true,
-      "x": 249,
-      "y": 519,
-      "layoutColumn": 1
+      "x": 1595,
+      "y": 249,
+      "layoutColumn": 2
     },
     {
       "id": "math-rock",
       "name": "Math rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1990,
       "type": "genre",
       "description": "Interlocking riffs, asymmetrical metre and intricate guitar-led rhythmic arrangements.",
       "anchor": false,
-      "x": 247,
-      "y": 304,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 292,
+      "layoutColumn": 0
     },
     {
       "id": "krautrock",
       "name": "Krautrock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1968,
       "type": "scene",
       "description": "Exploratory German rock scenes joining repetition, electronic experimentation and unconventional forms.",
       "anchor": true,
-      "x": 19,
-      "y": 562,
-      "layoutColumn": 0
+      "x": 1440,
+      "y": 292,
+      "layoutColumn": 1
     },
     {
       "id": "motorik",
       "name": "Motorik",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1971,
       "type": "sonic characteristic",
       "description": "A steady propulsive pulse associated with some krautrock; a rhythmic approach rather than a distinct genre.",
       "anchor": false,
-      "x": 486,
-      "y": 332,
+      "x": 1595,
+      "y": 292,
       "layoutColumn": 2
     },
     {
       "id": "noise-pop",
       "name": "Noise pop",
-      "family": "postpunk",
+      "family": "alt-pop",
       "year": 1985,
       "type": "genre",
       "description": "Bright melody set against deliberately rough, distorted guitar textures.",
       "anchor": false,
-      "x": 21,
-      "y": 348,
-      "layoutColumn": 0
+      "x": 2030,
+      "y": 120,
+      "layoutColumn": 1
     },
     {
       "id": "indie-rock",
       "name": "Indie rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1980,
       "type": "genre",
       "description": "A broad alternative-rock tradition shaped by independent scenes, evolving sound and DIY infrastructure.",
       "anchor": false,
-      "x": 476,
-      "y": 404,
-      "layoutColumn": 2
+      "x": 1285,
+      "y": 335,
+      "layoutColumn": 0
     },
     {
       "id": "psychedelic-rock",
       "name": "Psychedelic rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1966,
       "type": "genre",
       "description": "Rock transformed through studio experimentation, altered timbre and expanded song structures.",
       "anchor": false,
-      "x": 239,
-      "y": 447,
+      "x": 1440,
+      "y": 335,
       "layoutColumn": 1
     },
     {
       "id": "psych-pop",
       "name": "Psych pop",
-      "family": "postpunk",
+      "family": "alt-pop",
       "year": 1966,
       "type": "genre",
       "description": "Concise pop forms stretched with psychedelia, collage and unusual harmonic colour.",
       "anchor": false,
-      "x": 484,
-      "y": 475,
+      "x": 2185,
+      "y": 120,
       "layoutColumn": 2
     },
     {
       "id": "garage-punk",
       "name": "Garage punk",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1980,
       "type": "genre",
       "description": "Raw, urgent punk-derived rock drawing on stripped-back garage-band approaches.",
       "anchor": false,
-      "x": 21,
-      "y": 491,
-      "layoutColumn": 0
+      "x": 1595,
+      "y": 335,
+      "layoutColumn": 2
     },
     {
       "id": "slowcore",
       "name": "Slowcore",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1990,
       "type": "genre",
       "description": "Sparse, slow-moving indie rock with restrained dynamics and carefully exposed emotion.",
       "anchor": false,
-      "x": 480,
-      "y": 547,
-      "layoutColumn": 2
+      "x": 1285,
+      "y": 378,
+      "layoutColumn": 0
     },
     {
       "id": "experimental-rock",
       "name": "Experimental rock",
-      "family": "postpunk",
+      "family": "alt-rock",
       "year": 1966,
       "type": "umbrella",
       "description": "A broad meeting place for rock projects that challenge conventional instrumentation and form.",
       "anchor": false,
-      "x": 246,
-      "y": 590,
+      "x": 1440,
+      "y": 378,
       "layoutColumn": 1
     },
     {
       "id": "idm",
       "name": "IDM",
-      "family": "idm",
+      "family": "electronic",
       "year": 1992,
       "type": "umbrella",
       "description": "An umbrella for exploratory electronic music with intricate programming, unconventional rhythmic design and listening-oriented forms.",
       "anchor": true,
-      "x": 842,
-      "y": 173,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 120,
+      "layoutColumn": 0
     },
     {
       "id": "braindance",
       "name": "Braindance",
-      "family": "idm",
+      "family": "electronic",
       "year": 1990,
       "type": "scene",
       "description": "An artist-associated alternative term for rhythmically adventurous electronic music often filed under IDM.",
       "anchor": false,
-      "x": 596,
-      "y": 62,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 120,
+      "layoutColumn": 1
     },
     {
       "id": "glitch",
       "name": "Glitch",
-      "family": "idm",
+      "family": "electronic",
       "year": 1995,
       "type": "precursor",
       "description": "Clicks, errors and digital artifacts repurposed as musical material, predating many web-born microgenres.",
       "anchor": true,
-      "x": 606,
-      "y": 312,
-      "layoutColumn": 0
+      "x": 415,
+      "y": 120,
+      "layoutColumn": 2
     },
     {
       "id": "microsound",
       "name": "Microsound",
-      "family": "idm",
+      "family": "electronic",
       "year": 1999,
       "type": "genre",
       "description": "Extremely small sound events, granular textures and subtle changes used as compositional material.",
       "anchor": true,
-      "x": 838,
-      "y": 423,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 163,
+      "layoutColumn": 0
     },
     {
       "id": "drill-and-bass",
       "name": "Drill and bass",
-      "family": "idm",
+      "family": "electronic",
       "year": 1995,
       "type": "genre",
       "description": "High-speed chopped breakbeats and densely programmed rhythmic twists.",
       "anchor": false,
-      "x": 844,
-      "y": 90,
+      "x": 260,
+      "y": 163,
       "layoutColumn": 1
     },
     {
       "id": "click-and-cuts",
       "name": "Click and cuts",
-      "family": "idm",
+      "family": "electronic",
       "year": 1999,
       "type": "scene",
       "description": "Minimal computer-music textures shaped by digital clicks, errors and microscopic events.",
       "anchor": false,
-      "x": 1071,
-      "y": 118,
+      "x": 415,
+      "y": 163,
       "layoutColumn": 2
     },
     {
       "id": "ambient-techno",
       "name": "Ambient techno",
-      "family": "idm",
+      "family": "electronic",
       "year": 1991,
       "type": "genre",
       "description": "Techno-derived motion blended with extended ambient space, atmosphere and restraint.",
       "anchor": true,
-      "x": 612,
-      "y": 562,
+      "x": 105,
+      "y": 206,
       "layoutColumn": 0
     },
     {
       "id": "wonky",
       "name": "Wonky",
-      "family": "idm",
+      "family": "electronic",
       "year": 2008,
       "type": "scene",
       "description": "Lopsided electronic rhythms, dislocated synth harmonies and off-centre beat programming.",
       "anchor": false,
-      "x": 604,
-      "y": 145,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 206,
+      "layoutColumn": 1
     },
     {
       "id": "breakcore",
       "name": "Breakcore",
-      "family": "idm",
+      "family": "electronic",
       "year": 1994,
       "type": "precursor",
       "description": "Breakbeat acceleration, extreme edits and dense sample collisions; older than its later online revivals.",
       "anchor": false,
-      "x": 1059,
-      "y": 201,
+      "x": 415,
+      "y": 206,
       "layoutColumn": 2
     },
     {
       "id": "intelligent-drum-and-bass",
       "name": "Intelligent drum and bass",
-      "family": "idm",
+      "family": "electronic",
       "year": 1993,
       "type": "scene",
       "description": "A listening-focused branch of drum and bass placing emphasis on atmosphere and detailed breaks.",
       "anchor": false,
-      "x": 598,
-      "y": 229,
+      "x": 105,
+      "y": 249,
       "layoutColumn": 0
     },
     {
       "id": "electronica",
       "name": "Electronica",
-      "family": "idm",
+      "family": "electronic",
       "year": 1990,
       "type": "umbrella",
       "description": "A broad term for electronic music outside any single club format or stylistic rule.",
       "anchor": false,
-      "x": 828,
-      "y": 257,
+      "x": 260,
+      "y": 249,
       "layoutColumn": 1
     },
     {
       "id": "glitch-hop",
       "name": "Glitch hop",
-      "family": "idm",
+      "family": "electronic",
       "year": 2001,
       "type": "genre",
       "description": "Hip-hop-derived beats combined with conspicuous digital edits and sound-design fragmentation.",
       "anchor": false,
-      "x": 1073,
-      "y": 285,
+      "x": 415,
+      "y": 249,
       "layoutColumn": 2
     },
     {
       "id": "plunderphonics",
       "name": "Plunderphonics",
-      "family": "idm",
+      "family": "electronic",
       "year": 1985,
       "type": "approach",
       "description": "Recomposition through recognisable audio borrowing, collage and critical reuse of recorded media.",
       "anchor": false,
-      "x": 833,
-      "y": 340,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 292,
+      "layoutColumn": 0
     },
     {
       "id": "algorithmic-music",
       "name": "Algorithmic music",
-      "family": "idm",
+      "family": "electronic",
       "year": 1950,
       "type": "approach",
       "description": "Composition guided by formal procedures, code or generative systems; an approach spanning multiple genres.",
       "anchor": false,
-      "x": 1062,
-      "y": 368,
-      "layoutColumn": 2
+      "x": 260,
+      "y": 292,
+      "layoutColumn": 1
     },
     {
       "id": "electroacoustic-improvisation",
       "name": "Electroacoustic improvisation",
-      "family": "idm",
+      "family": "electronic",
       "year": 1990,
       "type": "practice",
       "description": "Improvised sound built from acoustic sources, live electronics and unconventional textures.",
       "anchor": false,
-      "x": 608,
-      "y": 395,
-      "layoutColumn": 0
+      "x": 415,
+      "y": 292,
+      "layoutColumn": 2
     },
     {
       "id": "chiptune",
       "name": "Chiptune",
-      "family": "idm",
+      "family": "electronic",
       "year": 1980,
       "type": "precursor",
       "description": "Music built from videogame sound-chip techniques, deeply influential in internet-era DIY electronic production.",
       "anchor": false,
-      "x": 1077,
-      "y": 451,
-      "layoutColumn": 2
+      "x": 105,
+      "y": 335,
+      "layoutColumn": 0
     },
     {
       "id": "bitpop",
       "name": "Bitpop",
-      "family": "idm",
+      "family": "alt-pop",
       "year": 1990,
       "type": "scene",
       "description": "Pop melodies fused with videogame timbres, digital noise and chip-inspired synthesis.",
       "anchor": false,
-      "x": 611,
-      "y": 479,
+      "x": 1875,
+      "y": 163,
       "layoutColumn": 0
     },
     {
       "id": "drumfunk",
       "name": "Drumfunk",
-      "family": "idm",
+      "family": "electronic",
       "year": 2002,
       "type": "genre",
       "description": "Intricately edited acoustic-sounding drum breaks at drum-and-bass tempos.",
       "anchor": false,
-      "x": 834,
-      "y": 507,
+      "x": 260,
+      "y": 335,
       "layoutColumn": 1
     },
     {
       "id": "minimal-electronica",
       "name": "Minimal electronica",
-      "family": "idm",
+      "family": "electronic",
       "year": 1997,
       "type": "descriptor",
       "description": "A loosely used label for pared-back electronic compositions focused on individual sound events.",
       "anchor": false,
-      "x": 1061,
-      "y": 535,
+      "x": 415,
+      "y": 335,
       "layoutColumn": 2
     },
     {
@@ -574,9 +567,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Music focused on environment, space and sustained attention rather than foregrounded song or dance structures.",
       "anchor": true,
-      "x": 1444,
-      "y": 161,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 860,
+      "layoutColumn": 0
     },
     {
       "id": "dark-ambient",
@@ -586,9 +579,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Shadowed atmospheres and low-frequency tension explored through slowly unfolding electronic textures.",
       "anchor": true,
-      "x": 1207,
-      "y": 205,
-      "layoutColumn": 0
+      "x": 1440,
+      "y": 860,
+      "layoutColumn": 1
     },
     {
       "id": "drone",
@@ -598,9 +591,9 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Long sustained tones and evolving harmonics; a practice spanning experimental, folk, metal and ambient music.",
       "anchor": true,
-      "x": 1427,
-      "y": 376,
-      "layoutColumn": 1
+      "x": 1595,
+      "y": 860,
+      "layoutColumn": 2
     },
     {
       "id": "isolationism",
@@ -610,8 +603,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "A darker, sparse ambient tendency associated with solitude, abstraction and austere sound design.",
       "anchor": false,
-      "x": 1210,
-      "y": 62,
+      "x": 1285,
+      "y": 903,
       "layoutColumn": 0
     },
     {
@@ -623,7 +616,7 @@ window.YUZ_DATA = {
       "description": "Very quiet, small-scale recorded or electronic sounds placed under close listening.",
       "anchor": false,
       "x": 1440,
-      "y": 90,
+      "y": 903,
       "layoutColumn": 1
     },
     {
@@ -634,8 +627,8 @@ window.YUZ_DATA = {
       "type": "practice",
       "description": "Recorded environmental sound used as documentation or transformed into musical composition.",
       "anchor": false,
-      "x": 1669,
-      "y": 118,
+      "x": 1595,
+      "y": 903,
       "layoutColumn": 2
     },
     {
@@ -646,8 +639,8 @@ window.YUZ_DATA = {
       "type": "sonic characteristic",
       "description": "An environmental or spatial organisation of sound; useful across genres, not a standalone genre by default.",
       "anchor": true,
-      "x": 1193,
-      "y": 491,
+      "x": 1285,
+      "y": 946,
       "layoutColumn": 0
     },
     {
@@ -658,9 +651,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Dub mixing techniques, bass weight and echo meeting atmospheric electronic spaces.",
       "anchor": false,
-      "x": 1195,
-      "y": 133,
-      "layoutColumn": 0
+      "x": 1440,
+      "y": 946,
+      "layoutColumn": 1
     },
     {
       "id": "space-ambient",
@@ -670,8 +663,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Expansive electronic ambience evoking distance, immersion and imagined environments.",
       "anchor": false,
-      "x": 1673,
-      "y": 189,
+      "x": 1595,
+      "y": 946,
       "layoutColumn": 2
     },
     {
@@ -682,9 +675,9 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A wide field of contemplative, melodic and wellness-associated instrumental music.",
       "anchor": false,
-      "x": 1443,
-      "y": 233,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 989,
+      "layoutColumn": 0
     },
     {
       "id": "ambient-house",
@@ -694,21 +687,21 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "House rhythm and atmospheric sound design blended into spacious listening and dance forms.",
       "anchor": false,
-      "x": 1672,
-      "y": 261,
-      "layoutColumn": 2
+      "x": 1440,
+      "y": 989,
+      "layoutColumn": 1
     },
     {
       "id": "ambient-pop",
       "name": "Ambient pop",
-      "family": "ambient",
+      "family": "alt-pop",
       "year": 1980,
       "type": "genre",
       "description": "Pop songwriting surrounded by ambient space, diffuse production and soft-edged textures.",
       "anchor": false,
-      "x": 1198,
-      "y": 276,
-      "layoutColumn": 0
+      "x": 2030,
+      "y": 163,
+      "layoutColumn": 1
     },
     {
       "id": "ethereal-wave",
@@ -718,9 +711,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Gothic and dream-pop related music built from airy vocals, textural instruments and spacious production.",
       "anchor": false,
-      "x": 1433,
-      "y": 304,
-      "layoutColumn": 1
+      "x": 1595,
+      "y": 989,
+      "layoutColumn": 2
     },
     {
       "id": "ritual-ambient",
@@ -730,9 +723,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Ceremonial, repetitive and often dark atmospheric music drawing on ritualistic imagery.",
       "anchor": false,
-      "x": 1660,
-      "y": 332,
-      "layoutColumn": 2
+      "x": 1285,
+      "y": 1032,
+      "layoutColumn": 0
     },
     {
       "id": "drone-metal",
@@ -742,9 +735,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Amplified heavy music built from sustained distortion, long tones and extreme durations.",
       "anchor": false,
-      "x": 1212,
-      "y": 348,
-      "layoutColumn": 0
+      "x": 1440,
+      "y": 1032,
+      "layoutColumn": 1
     },
     {
       "id": "electroacoustic",
@@ -754,9 +747,9 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "Compositional practices combining electronic sound with acoustic or recorded material.",
       "anchor": true,
-      "x": 1445,
-      "y": 590,
-      "layoutColumn": 1
+      "x": 1595,
+      "y": 1032,
+      "layoutColumn": 2
     },
     {
       "id": "acousmatic",
@@ -766,9 +759,9 @@ window.YUZ_DATA = {
       "type": "practice",
       "description": "Fixed-media sound composition intended for listening without seeing the source of the sounds.",
       "anchor": false,
-      "x": 1673,
-      "y": 404,
-      "layoutColumn": 2
+      "x": 1285,
+      "y": 1075,
+      "layoutColumn": 0
     },
     {
       "id": "musique-concrete",
@@ -778,9 +771,9 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Compositional use of edited recorded sound rather than relying only on notation or instruments.",
       "anchor": false,
-      "x": 1209,
-      "y": 419,
-      "layoutColumn": 0
+      "x": 1440,
+      "y": 1075,
+      "layoutColumn": 1
     },
     {
       "id": "tape-music",
@@ -790,9 +783,9 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Sound composed or transformed through recording tape manipulation and playback techniques.",
       "anchor": false,
-      "x": 1437,
-      "y": 447,
-      "layoutColumn": 1
+      "x": 1595,
+      "y": 1075,
+      "layoutColumn": 2
     },
     {
       "id": "fourth-world",
@@ -802,9 +795,9 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "A concept linking electronic ambience with reimagined transnational instrumental traditions.",
       "anchor": false,
-      "x": 1659,
-      "y": 475,
-      "layoutColumn": 2
+      "x": 1285,
+      "y": 1118,
+      "layoutColumn": 0
     },
     {
       "id": "berlin-school",
@@ -814,8 +807,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Sequenced synthesiser figures, long-form electronic composition and cosmic atmospheres.",
       "anchor": false,
-      "x": 1427,
-      "y": 519,
+      "x": 1440,
+      "y": 1118,
       "layoutColumn": 1
     },
     {
@@ -826,8 +819,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A widely used but imprecise label for contemporary instrumental music involving classical forms and modern production.",
       "anchor": false,
-      "x": 1673,
-      "y": 547,
+      "x": 1595,
+      "y": 1118,
       "layoutColumn": 2
     },
     {
@@ -838,717 +831,717 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Contemporary composition often merging acoustic instrumental writing with electronic textures.",
       "anchor": false,
-      "x": 1202,
-      "y": 562,
+      "x": 1285,
+      "y": 1161,
       "layoutColumn": 0
     },
     {
       "id": "alternative-folk",
       "name": "Alternative folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1980,
       "type": "umbrella",
       "description": "Independent, experimental and hybrid folk approaches beyond conventional revival categories.",
       "anchor": true,
-      "x": 2020,
-      "y": 190,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 860,
+      "layoutColumn": 0
     },
     {
       "id": "indie-folk",
       "name": "Indie folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1990,
       "type": "genre",
       "description": "Folk-rooted songwriting within independent music cultures and contemporary production.",
       "anchor": true,
-      "x": 1788,
-      "y": 262,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 860,
+      "layoutColumn": 1
     },
     {
       "id": "freak-folk",
       "name": "Freak folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 2000,
       "type": "scene",
       "description": "Eclectic, psychedelic and nonconformist acoustic music linked to 2000s independent scenes.",
       "anchor": true,
-      "x": 2024,
-      "y": 390,
-      "layoutColumn": 1
+      "x": 415,
+      "y": 860,
+      "layoutColumn": 2
     },
     {
       "id": "psych-folk",
       "name": "Psych folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1960,
       "type": "genre",
       "description": "Folk instrumentation and song structures stretched with psychedelic moods and arrangements.",
       "anchor": true,
-      "x": 1779,
-      "y": 462,
+      "x": 105,
+      "y": 903,
       "layoutColumn": 0
     },
     {
       "id": "folktronica",
       "name": "Folktronica",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1990,
       "type": "genre",
       "description": "Acoustic folk materials interwoven with electronic processing, sampling and rhythmic programming.",
       "anchor": true,
-      "x": 2011,
-      "y": 590,
+      "x": 260,
+      "y": 903,
       "layoutColumn": 1
     },
     {
       "id": "glitch-folk",
       "name": "Glitch folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 2000,
       "type": "provisional descriptor",
       "description": "A useful descriptive label for folk-informed music using glitch editing and digital fragmentation; not a settled genre boundary.",
       "anchor": false,
-      "x": 1782,
-      "y": 62,
-      "layoutColumn": 0
+      "x": 415,
+      "y": 903,
+      "layoutColumn": 2
     },
     {
       "id": "chamber-folk",
       "name": "Chamber folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1990,
       "type": "genre",
       "description": "Folk-informed songwriting with detailed chamber-style acoustic arrangements.",
       "anchor": false,
-      "x": 2010,
-      "y": 90,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 946,
+      "layoutColumn": 0
     },
     {
       "id": "antifolk",
       "name": "Antifolk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1980,
       "type": "scene",
       "description": "Songwriters challenging folk conventions with punk attitude, humour or blunt realism.",
       "anchor": false,
-      "x": 2238,
-      "y": 118,
-      "layoutColumn": 2
+      "x": 260,
+      "y": 946,
+      "layoutColumn": 1
     },
     {
       "id": "dark-folk",
       "name": "Dark folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1980,
       "type": "genre",
       "description": "Folk-rooted music exploring darker storytelling, sparse arrangements and ominous atmosphere.",
       "anchor": false,
-      "x": 1780,
-      "y": 162,
-      "layoutColumn": 0
+      "x": 415,
+      "y": 946,
+      "layoutColumn": 2
     },
     {
       "id": "folk-punk",
       "name": "Folk punk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1980,
       "type": "genre",
       "description": "Punk urgency, political directness and folk instrumentation or songwriting.",
       "anchor": false,
-      "x": 2239,
-      "y": 218,
-      "layoutColumn": 2
+      "x": 105,
+      "y": 989,
+      "layoutColumn": 0
     },
     {
       "id": "experimental-folk",
       "name": "Experimental folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1960,
       "type": "umbrella",
       "description": "Folk instrumentation, performance and cultural materials pushed beyond expected forms.",
       "anchor": false,
-      "x": 2025,
-      "y": 290,
+      "x": 260,
+      "y": 989,
       "layoutColumn": 1
     },
     {
       "id": "acid-folk",
       "name": "Acid folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1960,
       "type": "scene",
       "description": "A psychedelic folk tendency linked to late-1960s and 1970s experimental acoustic music.",
       "anchor": false,
-      "x": 2239,
-      "y": 318,
+      "x": 415,
+      "y": 989,
       "layoutColumn": 2
     },
     {
       "id": "ambient-folk",
       "name": "Ambient folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 2000,
       "type": "descriptor",
       "description": "Folk writing or acoustic instruments blended with spacious drones and atmospheric textures.",
       "anchor": false,
-      "x": 1774,
-      "y": 362,
+      "x": 105,
+      "y": 1032,
       "layoutColumn": 0
     },
     {
       "id": "drone-folk",
       "name": "Drone folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 2000,
       "type": "descriptor",
       "description": "Folk-rooted instrumentation and singing with sustained drones or static harmonic spaces.",
       "anchor": false,
-      "x": 2252,
-      "y": 418,
-      "layoutColumn": 2
+      "x": 260,
+      "y": 1032,
+      "layoutColumn": 1
     },
     {
       "id": "alt-country",
       "name": "Alt-country",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1990,
       "type": "genre",
       "description": "Country songwriting reframed through independent rock and roots experimentation.",
       "anchor": false,
-      "x": 2014,
-      "y": 490,
-      "layoutColumn": 1
+      "x": 415,
+      "y": 1032,
+      "layoutColumn": 2
     },
     {
       "id": "singer-songwriter",
       "name": "Singer-songwriter",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1960,
       "type": "umbrella",
       "description": "Song-centred music associated with artists composing and performing their own material.",
       "anchor": false,
-      "x": 2245,
-      "y": 518,
-      "layoutColumn": 2
+      "x": 105,
+      "y": 1075,
+      "layoutColumn": 0
     },
     {
       "id": "traditional-folk",
       "name": "Traditional folk",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1800,
       "type": "umbrella",
       "description": "A broad context for inherited and community-rooted musical traditions; not one globally uniform genre.",
       "anchor": false,
-      "x": 1778,
-      "y": 562,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 1075,
+      "layoutColumn": 1
     },
     {
       "id": "folk-rock",
       "name": "Folk rock",
-      "family": "folk",
+      "family": "acoustic",
       "year": 1960,
       "type": "genre",
       "description": "Folk songwriting integrated with rock instrumentation and production.",
       "anchor": false,
-      "x": 2243,
-      "y": 618,
+      "x": 415,
+      "y": 1075,
       "layoutColumn": 2
     },
     {
       "id": "industrial",
       "name": "Industrial",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1975,
       "type": "umbrella",
       "description": "Experimental sound and performance traditions built from machinery, provocation, electronics and noise.",
       "anchor": true,
-      "x": 251,
-      "y": 955,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 378,
+      "layoutColumn": 0
     },
     {
       "id": "ebm",
       "name": "EBM",
-      "family": "industrial",
+      "family": "club",
       "year": 1980,
       "type": "genre",
       "description": "Electronic body music built from repetitive sequenced bass, machine rhythms and commanding vocals.",
       "anchor": true,
-      "x": 18,
-      "y": 1052,
+      "x": 695,
+      "y": 120,
       "layoutColumn": 0
     },
     {
       "id": "power-electronics",
       "name": "Power electronics",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1980,
       "type": "genre",
       "description": "Confrontational noise, distortion and extreme electronic performance aesthetics.",
       "anchor": false,
-      "x": 20,
-      "y": 802,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 378,
+      "layoutColumn": 1
     },
     {
       "id": "industrial-techno",
       "name": "Industrial techno",
-      "family": "industrial",
+      "family": "club",
       "year": 1990,
       "type": "genre",
       "description": "Techno structures pushed toward abrasive mechanical texture and industrial repetition.",
       "anchor": true,
-      "x": 247,
-      "y": 1330,
+      "x": 850,
+      "y": 120,
       "layoutColumn": 1
     },
     {
       "id": "industrial-hip-hop",
       "name": "Industrial hip-hop",
-      "family": "industrial",
+      "family": "hip-hop",
       "year": 1988,
       "type": "genre",
       "description": "Hip-hop rhythms and vocal approaches intersecting with industrial distortion and sampling.",
       "anchor": false,
-      "x": 235,
-      "y": 830,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 860,
+      "layoutColumn": 0
     },
     {
       "id": "dark-electro",
       "name": "Dark electro",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1990,
       "type": "genre",
       "description": "Industrial-derived electronic music with dark melodies and complex synthesiser texture.",
       "anchor": false,
-      "x": 472,
-      "y": 858,
+      "x": 415,
+      "y": 378,
       "layoutColumn": 2
     },
     {
       "id": "aggrotech",
       "name": "Aggrotech",
-      "family": "industrial",
+      "family": "club",
       "year": 1990,
       "type": "genre",
       "description": "Hard, aggressive electronic body music with distorted vocals and club-oriented rhythms.",
       "anchor": false,
-      "x": 11,
-      "y": 927,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 120,
+      "layoutColumn": 2
     },
     {
       "id": "death-industrial",
       "name": "Death industrial",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1980,
       "type": "genre",
       "description": "Bleak industrial textures with crushing slow-moving noise and ritualistic atmosphere.",
       "anchor": false,
-      "x": 470,
-      "y": 983,
-      "layoutColumn": 2
+      "x": 105,
+      "y": 421,
+      "layoutColumn": 0
     },
     {
       "id": "rhythmic-noise",
       "name": "Rhythmic noise",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1990,
       "type": "genre",
       "description": "Dance-connected noise built from distorted machine rhythms and harsh texture.",
       "anchor": false,
-      "x": 245,
-      "y": 1080,
+      "x": 260,
+      "y": 421,
       "layoutColumn": 1
     },
     {
       "id": "power-noise",
       "name": "Power noise",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1990,
       "type": "genre",
       "description": "Industrial club music emphasising heavy distorted percussion and repetitive intensity.",
       "anchor": false,
-      "x": 479,
-      "y": 1108,
+      "x": 415,
+      "y": 421,
       "layoutColumn": 2
     },
     {
       "id": "synth-punk",
       "name": "Synth-punk",
-      "family": "industrial",
+      "family": "alt-rock",
       "year": 1977,
       "type": "genre",
       "description": "Punk immediacy driven by synthesiser patterns and abrasive electronic timbres.",
       "anchor": false,
-      "x": 14,
-      "y": 1177,
-      "layoutColumn": 0
+      "x": 1595,
+      "y": 378,
+      "layoutColumn": 2
     },
     {
       "id": "minimal-synth",
       "name": "Minimal synth",
-      "family": "industrial",
+      "family": "electronic",
       "year": 1978,
       "type": "scene",
       "description": "Spare DIY synthesiser music connected to early wave and post-punk scenes.",
       "anchor": false,
-      "x": 251,
-      "y": 1205,
-      "layoutColumn": 1
+      "x": 105,
+      "y": 464,
+      "layoutColumn": 0
     },
     {
       "id": "new-beat",
       "name": "New beat",
-      "family": "industrial",
+      "family": "club",
       "year": 1987,
       "type": "scene",
       "description": "Belgian late-1980s slowed electronic dance music bridging EBM, new wave and club culture.",
       "anchor": false,
-      "x": 473,
-      "y": 1233,
-      "layoutColumn": 2
+      "x": 695,
+      "y": 163,
+      "layoutColumn": 0
     },
     {
       "id": "darksynth",
       "name": "Darksynth",
-      "family": "industrial",
+      "family": "electronic",
       "year": 2010,
       "type": "genre",
       "description": "Synthwave-related electronics with darker cinematic and aggressive electronic textures.",
       "anchor": false,
-      "x": 9,
-      "y": 1302,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 464,
+      "layoutColumn": 1
     },
     {
       "id": "synthwave",
       "name": "Synthwave",
-      "family": "industrial",
+      "family": "electronic",
       "year": 2000,
       "type": "genre",
       "description": "Contemporary electronic music drawing on imagined 1980s film, arcade and pop production.",
       "anchor": false,
-      "x": 483,
-      "y": 1358,
+      "x": 415,
+      "y": 464,
       "layoutColumn": 2
     },
     {
       "id": "hypnagogic",
       "name": "Hypnagogic pop",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2008,
       "type": "scene",
       "description": "Degraded pop-memory, warped nostalgia and DIY recordings that blurred the line between familiar media and dream.",
       "anchor": true,
-      "x": 1432,
-      "y": 892,
-      "layoutColumn": 1
+      "x": 2185,
+      "y": 163,
+      "layoutColumn": 2
     },
     {
       "id": "chillwave",
       "name": "Chillwave",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2009,
       "type": "scene",
       "description": "Hazy synthesizers, softened beats and nostalgic pop textures circulated through late-2000s music blogs.",
       "anchor": false,
-      "x": 1197,
-      "y": 802,
+      "x": 1875,
+      "y": 206,
       "layoutColumn": 0
     },
     {
       "id": "vaporwave",
       "name": "Vaporwave",
-      "family": "internet",
+      "family": "electronic",
       "year": 2010,
       "type": "microgenre",
       "description": "An internet-born style of slowed samples, imagined corporate spaces and unsettling nostalgia for familiar commercial sound.",
       "anchor": true,
-      "x": 1209,
-      "y": 927,
+      "x": 105,
+      "y": 507,
       "layoutColumn": 0
     },
     {
       "id": "eccojams",
       "name": "Eccojams",
-      "family": "internet",
+      "family": "electronic",
       "year": 2010,
       "type": "microgenre",
       "description": "Short pop fragments looped, slowed and transformed into hypnotic repetition; an influential precursor to vaporwave.",
       "anchor": false,
-      "x": 1433,
-      "y": 830,
+      "x": 260,
+      "y": 507,
       "layoutColumn": 1
     },
     {
       "id": "mallsoft",
       "name": "Mallsoft",
-      "family": "internet",
+      "family": "ambient",
       "year": 2012,
       "type": "microgenre",
       "description": "Reverberant retail ambience: distant muzak, public-space field recordings and the sound of an empty shopping centre.",
       "anchor": false,
-      "x": 1669,
-      "y": 858,
-      "layoutColumn": 2
+      "x": 1440,
+      "y": 1161,
+      "layoutColumn": 1
     },
     {
       "id": "futurefunk",
       "name": "Future funk",
-      "family": "internet",
+      "family": "electronic",
       "year": 2012,
       "type": "microgenre",
       "description": "Sample-driven disco and city-pop edits with brighter momentum and dance rhythms than much early vaporwave.",
       "anchor": false,
-      "x": 1207,
-      "y": 864,
-      "layoutColumn": 0
+      "x": 415,
+      "y": 507,
+      "layoutColumn": 2
     },
     {
       "id": "signalwave",
       "name": "Signalwave",
-      "family": "internet",
+      "family": "ambient",
       "year": 2012,
       "type": "microgenre",
       "description": "Weather broadcasts, station idents and other transmissions edited into the sound of unreliable media memory.",
       "anchor": false,
-      "x": 1663,
-      "y": 920,
+      "x": 1595,
+      "y": 1161,
       "layoutColumn": 2
     },
     {
       "id": "slushwave",
       "name": "Slushwave",
-      "family": "internet",
+      "family": "ambient",
       "year": 2014,
       "type": "microgenre",
       "description": "Slow-moving ambient vaporwave: long-form, densely reverberant loops designed for immersion.",
       "anchor": false,
-      "x": 1433,
-      "y": 955,
-      "layoutColumn": 1
+      "x": 1285,
+      "y": 1204,
+      "layoutColumn": 0
     },
     {
       "id": "hardvapour",
       "name": "Hardvapour",
-      "family": "internet",
+      "family": "electronic",
       "year": 2015,
       "type": "microgenre",
       "description": "An abrasive response to vaporwave, bringing gabber, hardcore and industrial intensity into its digital mythology.",
       "anchor": false,
-      "x": 1667,
-      "y": 983,
-      "layoutColumn": 2
+      "x": 105,
+      "y": 550,
+      "layoutColumn": 0
     },
     {
       "id": "barber",
       "name": "Barber beats",
-      "family": "internet",
+      "family": "electronic",
       "year": 2020,
       "type": "microgenre",
       "description": "A later vaporwave-adjacent style centred on looped instrumental groove, downtempo and lounge samples.",
       "anchor": false,
-      "x": 1208,
-      "y": 990,
-      "layoutColumn": 0
+      "x": 260,
+      "y": 550,
+      "layoutColumn": 1
     },
     {
       "id": "dreampunk",
       "name": "Dreampunk",
-      "family": "internet",
+      "family": "ambient",
       "year": 2014,
       "type": "microgenre",
       "description": "Cinematic ambient atmospheres and imagined nocturnal futures, often connected to vaporwave communities.",
       "anchor": false,
-      "x": 1433,
-      "y": 1018,
+      "x": 1440,
+      "y": 1204,
       "layoutColumn": 1
     },
     {
       "id": "seapunk",
       "name": "Seapunk",
-      "family": "internet",
+      "family": "electronic",
       "year": 2011,
       "type": "scene",
       "description": "A short-lived Tumblr-era scene joining aqueous cyber-aesthetics with eclectic electronic dance and pop.",
       "anchor": false,
-      "x": 1670,
-      "y": 1046,
+      "x": 415,
+      "y": 550,
       "layoutColumn": 2
     },
     {
       "id": "witch",
       "name": "Witch house",
-      "family": "internet",
+      "family": "electronic",
       "year": 2009,
       "type": "scene",
       "description": "Heavily processed voices, slow tempos, industrial shadows and occult-coded internet imagery.",
       "anchor": false,
-      "x": 1213,
-      "y": 1052,
+      "x": 105,
+      "y": 593,
       "layoutColumn": 0
     },
     {
       "id": "electropop",
       "name": "Electropop",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2000,
       "type": "precursor",
       "description": "Pop built around electronic production and synthesis; a broad pre-existing language later exaggerated by online scenes.",
       "anchor": false,
-      "x": 1665,
-      "y": 1108,
-      "layoutColumn": 2
+      "x": 2030,
+      "y": 206,
+      "layoutColumn": 1
     },
     {
       "id": "bubblegum",
       "name": "Bubblegum bass",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2013,
       "type": "microgenre",
       "description": "Hyperreal, glossy, plastic-sounding pop associated with the PC Music movement and related producers.",
       "anchor": false,
-      "x": 1430,
-      "y": 1142,
-      "layoutColumn": 1
+      "x": 2185,
+      "y": 206,
+      "layoutColumn": 2
     },
     {
       "id": "nightcore",
       "name": "Nightcore",
-      "family": "internet",
+      "family": "club",
       "year": 2002,
       "type": "scene",
       "description": "Sped-up and pitched-up transformations of existing tracks, amplified by video and fan-upload cultures.",
       "anchor": true,
-      "x": 1445,
-      "y": 1080,
+      "x": 850,
+      "y": 163,
       "layoutColumn": 1
     },
     {
       "id": "happyhardcore",
       "name": "Happy hardcore",
-      "family": "internet",
+      "family": "club",
       "year": 1990,
       "type": "precursor",
       "description": "Euphoric high-speed rave music with bright melodies; a historical influence on some accelerated internet pop.",
       "anchor": false,
-      "x": 1660,
-      "y": 1170,
+      "x": 1005,
+      "y": 163,
       "layoutColumn": 2
     },
     {
       "id": "hyperpop",
       "name": "Hyperpop",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2019,
       "type": "umbrella",
       "description": "A contested umbrella for maximalist and digitally manipulated pop, spanning different scenes and generations.",
       "anchor": true,
-      "x": 1205,
-      "y": 1114,
+      "x": 1875,
+      "y": 249,
       "layoutColumn": 0
     },
     {
       "id": "digicore",
       "name": "Digicore",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2019,
       "type": "scene",
       "description": "A Discord- and SoundCloud-linked community mixing pop distortion, trap, pitch processing and DIY collaboration.",
       "anchor": true,
-      "x": 1435,
-      "y": 1268,
+      "x": 2030,
+      "y": 249,
       "layoutColumn": 1
     },
     {
       "id": "dariacore",
       "name": "Dariacore",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2021,
       "type": "microgenre",
       "description": "Breakneck, meme-literate sample collage associated with Jane Remover’s leroy project and online remix culture.",
       "anchor": false,
-      "x": 1198,
-      "y": 1177,
-      "layoutColumn": 0
+      "x": 2185,
+      "y": 249,
+      "layoutColumn": 2
     },
     {
       "id": "scenecore",
       "name": "Scenecore",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2020,
       "type": "scene",
       "description": "A loose internet scene revisiting MySpace-era electronic emo and scene aesthetics through contemporary production.",
       "anchor": false,
-      "x": 1432,
-      "y": 1205,
-      "layoutColumn": 1
+      "x": 1875,
+      "y": 292,
+      "layoutColumn": 0
     },
     {
       "id": "glitchpop",
       "name": "Glitch pop",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2000,
       "type": "scene",
       "description": "Pop songwriting incorporating edits, digital stutters and fragmented audio as prominent musical material.",
       "anchor": false,
-      "x": 1665,
-      "y": 1233,
-      "layoutColumn": 2
+      "x": 2030,
+      "y": 292,
+      "layoutColumn": 1
     },
     {
       "id": "pc-music",
       "name": "PC Music",
-      "family": "internet",
+      "family": "alt-pop",
       "year": 2013,
       "type": "scene",
       "description": "An experimental pop label and network foregrounding artificiality, hyperreal sound and digital pop spectacle.",
       "anchor": true,
-      "x": 1201,
-      "y": 1302,
-      "layoutColumn": 0
+      "x": 2185,
+      "y": 292,
+      "layoutColumn": 2
     },
     {
       "id": "future-bass",
       "name": "Future bass",
-      "family": "internet",
+      "family": "club",
       "year": 2010,
       "type": "genre",
       "description": "Bass-music production built around bright synth chords, rhythmic drops and melodic electronic textures.",
       "anchor": false,
-      "x": 1201,
-      "y": 1240,
+      "x": 695,
+      "y": 206,
       "layoutColumn": 0
     },
     {
       "id": "vaportrap",
       "name": "Vaportrap",
-      "family": "internet",
+      "family": "electronic",
       "year": 2010,
       "type": "genre",
       "description": "Cloudy trap and vaporwave aesthetics meeting in online beat cultures.",
       "anchor": false,
-      "x": 1659,
-      "y": 1296,
-      "layoutColumn": 2
+      "x": 260,
+      "y": 593,
+      "layoutColumn": 1
     },
     {
       "id": "utopian-virtual",
       "name": "Utopian virtual",
-      "family": "internet",
+      "family": "electronic",
       "year": 2010,
       "type": "scene",
       "description": "A vaporwave-related digital aesthetic imagining optimistic, frictionless simulated spaces.",
       "anchor": false,
-      "x": 1429,
-      "y": 1330,
-      "layoutColumn": 1
+      "x": 415,
+      "y": 593,
+      "layoutColumn": 2
     },
     {
       "id": "deconstructed",
@@ -1558,8 +1551,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Club-derived music that fractures rhythmic expectations, foregrounding sound design and discontinuous energy.",
       "anchor": true,
-      "x": 826,
-      "y": 830,
+      "x": 850,
+      "y": 206,
       "layoutColumn": 1
     },
     {
@@ -1570,9 +1563,9 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A loose term for club-informed experiments that depart from conventional dance-floor structures.",
       "anchor": true,
-      "x": 602,
-      "y": 913,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 206,
+      "layoutColumn": 2
     },
     {
       "id": "weightless",
@@ -1582,8 +1575,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Sparse, suspended instrumental grime often replacing drum impact with atmosphere and negative space.",
       "anchor": false,
-      "x": 605,
-      "y": 802,
+      "x": 695,
+      "y": 249,
       "layoutColumn": 0
     },
     {
@@ -1594,9 +1587,9 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "An informal tag for abstract, synthesizer-forward extensions of instrumental grime.",
       "anchor": false,
-      "x": 1076,
-      "y": 858,
-      "layoutColumn": 2
+      "x": 850,
+      "y": 249,
+      "layoutColumn": 1
     },
     {
       "id": "harddrum",
@@ -1606,9 +1599,9 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Percussion-forward UK club experimentation informed by multiple rhythmic traditions and dance scenes.",
       "anchor": false,
-      "x": 612,
-      "y": 858,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 249,
+      "layoutColumn": 2
     },
     {
       "id": "jungle-revival",
@@ -1618,9 +1611,9 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "New waves of jungle and breakbeat production circulated through online scenes, informed by 1990s dance history.",
       "anchor": true,
-      "x": 842,
-      "y": 997,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 292,
+      "layoutColumn": 0
     },
     {
       "id": "jerseyclub",
@@ -1630,8 +1623,8 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Newark-rooted club music known for triplet kick patterns, chops and a specific regional dance tradition.",
       "anchor": false,
-      "x": 826,
-      "y": 886,
+      "x": 850,
+      "y": 292,
       "layoutColumn": 1
     },
     {
@@ -1642,8 +1635,8 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Baltimore dance music built from chopped breaks, repeated vocal hooks and hard physical club rhythms.",
       "anchor": false,
-      "x": 1074,
-      "y": 914,
+      "x": 1005,
+      "y": 292,
       "layoutColumn": 2
     },
     {
@@ -1654,9 +1647,9 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Sounds shaped by Black and Latin queer ballroom culture; a living social tradition, not merely a production preset.",
       "anchor": false,
-      "x": 837,
-      "y": 941,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 335,
+      "layoutColumn": 0
     },
     {
       "id": "footwork",
@@ -1666,9 +1659,9 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Fast, syncopated Chicago music inseparable from its footwork dancing communities.",
       "anchor": true,
-      "x": 602,
-      "y": 1024,
-      "layoutColumn": 0
+      "x": 850,
+      "y": 335,
+      "layoutColumn": 1
     },
     {
       "id": "juke",
@@ -1678,8 +1671,8 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Chicago club sound whose rapid patterns and local history helped shape footwork.",
       "anchor": false,
-      "x": 1069,
-      "y": 969,
+      "x": 1005,
+      "y": 335,
       "layoutColumn": 2
     },
     {
@@ -1690,8 +1683,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "London-rooted house-related sound with syncopated percussion and Caribbean and African dance influences.",
       "anchor": false,
-      "x": 609,
-      "y": 969,
+      "x": 695,
+      "y": 378,
       "layoutColumn": 0
     },
     {
@@ -1702,8 +1695,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Durban-rooted, skeletal and percussive club music with distinctive rhythmic space and local cultural origins.",
       "anchor": true,
-      "x": 828,
-      "y": 1108,
+      "x": 850,
+      "y": 378,
       "layoutColumn": 1
     },
     {
@@ -1714,8 +1707,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Internet-connected experimental reggaeton and perreo, pushing synthetic textures and alternative club aesthetics.",
       "anchor": false,
-      "x": 1069,
-      "y": 1025,
+      "x": 1005,
+      "y": 378,
       "layoutColumn": 2
     },
     {
@@ -1726,9 +1719,9 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Brazilian funk culture rooted in Rio de Janeiro; connected to evolving local scenes and production lineages.",
       "anchor": false,
-      "x": 845,
-      "y": 1052,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 421,
+      "layoutColumn": 0
     },
     {
       "id": "mandelao",
@@ -1738,9 +1731,9 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "A São Paulo-linked baile funk form featuring spare, hard-edged electronic percussion and bass.",
       "anchor": false,
-      "x": 1058,
-      "y": 1080,
-      "layoutColumn": 2
+      "x": 850,
+      "y": 421,
+      "layoutColumn": 1
     },
     {
       "id": "jungle",
@@ -1750,9 +1743,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Breakbeat-driven UK club music shaped by sound-system bass and rhythmic experimentation.",
       "anchor": true,
-      "x": 604,
-      "y": 1135,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 421,
+      "layoutColumn": 2
     },
     {
       "id": "drum-and-bass",
@@ -1762,9 +1755,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Bass-heavy electronic dance music marked by fast syncopated breaks and evolving production lineages.",
       "anchor": true,
-      "x": 828,
-      "y": 1219,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 464,
+      "layoutColumn": 0
     },
     {
       "id": "uk-garage",
@@ -1774,9 +1767,9 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Swinging club rhythms, soulful vocals and UK sound-system connections.",
       "anchor": false,
-      "x": 598,
-      "y": 1080,
-      "layoutColumn": 0
+      "x": 850,
+      "y": 464,
+      "layoutColumn": 1
     },
     {
       "id": "2-step-garage",
@@ -1786,8 +1779,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "UK garage patterns built on displaced kicks and syncopated two-step percussion.",
       "anchor": false,
-      "x": 1060,
-      "y": 1136,
+      "x": 1005,
+      "y": 464,
       "layoutColumn": 2
     },
     {
@@ -1798,8 +1791,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Bass-led UK club music built from space, half-time pulse and dubwise sound design.",
       "anchor": true,
-      "x": 613,
-      "y": 1246,
+      "x": 695,
+      "y": 507,
       "layoutColumn": 0
     },
     {
@@ -1810,8 +1803,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "UK MC culture and angular electronic beats rooted in pirate radio and local urban music scenes.",
       "anchor": false,
-      "x": 836,
-      "y": 1163,
+      "x": 850,
+      "y": 507,
       "layoutColumn": 1
     },
     {
@@ -1822,8 +1815,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A loose term for UK club music drawing from garage, dubstep, house, breaks and sound-system culture.",
       "anchor": false,
-      "x": 1069,
-      "y": 1191,
+      "x": 1005,
+      "y": 507,
       "layoutColumn": 2
     },
     {
@@ -1834,8 +1827,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Minimal techno and dub production techniques converging in deep repetition, delays and spaciousness.",
       "anchor": false,
-      "x": 609,
-      "y": 1191,
+      "x": 695,
+      "y": 550,
       "layoutColumn": 0
     },
     {
@@ -1846,8 +1839,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Electronic dance music emerging from Detroit and evolving through diverse local scenes.",
       "anchor": true,
-      "x": 839,
-      "y": 1330,
+      "x": 850,
+      "y": 550,
       "layoutColumn": 1
     },
     {
@@ -1858,8 +1851,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Drum-machine funk, syncopated bass and robotic electronic rhythms with hip-hop and club links.",
       "anchor": false,
-      "x": 1063,
-      "y": 1247,
+      "x": 1005,
+      "y": 550,
       "layoutColumn": 2
     },
     {
@@ -1870,9 +1863,9 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "New York experimental beat and bass music meeting ambient, dub and abstract hip-hop.",
       "anchor": false,
-      "x": 837,
-      "y": 1274,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 593,
+      "layoutColumn": 0
     },
     {
       "id": "leftfield-bass",
@@ -1882,9 +1875,9 @@ window.YUZ_DATA = {
       "type": "descriptor",
       "description": "A broad descriptor for bass-oriented dance experiments outside one established club template.",
       "anchor": false,
-      "x": 1075,
-      "y": 1302,
-      "layoutColumn": 2
+      "x": 850,
+      "y": 593,
+      "layoutColumn": 1
     },
     {
       "id": "acid-techno",
@@ -1894,201 +1887,201 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Techno driven by resonant acid synthesis and repetitive club structures.",
       "anchor": false,
-      "x": 612,
-      "y": 1302,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 593,
+      "layoutColumn": 2
     },
     {
       "id": "cloudrap",
       "name": "Cloud rap",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2009,
       "type": "scene",
       "description": "Hazy pads, submerged drums and atmospheric production associated with early internet rap networks.",
       "anchor": true,
-      "x": 2015,
-      "y": 930,
+      "x": 850,
+      "y": 860,
       "layoutColumn": 1
     },
     {
       "id": "soundcloud",
       "name": "SoundCloud rap",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2014,
       "type": "umbrella",
       "description": "A broad platform-linked rap wave spanning DIY recording, distorted mixes, emo influences and regional styles.",
       "anchor": true,
-      "x": 1779,
-      "y": 1002,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 860,
+      "layoutColumn": 2
     },
     {
       "id": "emorap",
       "name": "Emo rap",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2010,
       "type": "scene",
       "description": "Rap integrated with confessional emo, rock guitar and melodic writing, accelerated by online communities.",
       "anchor": false,
-      "x": 1788,
-      "y": 802,
+      "x": 695,
+      "y": 903,
       "layoutColumn": 0
     },
     {
       "id": "plugg",
       "name": "Plugg",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2014,
       "type": "scene",
       "description": "Bright synth loops, buoyant melodies and minimal trap drums associated with independent producer networks.",
       "anchor": false,
-      "x": 2016,
-      "y": 830,
+      "x": 850,
+      "y": 903,
       "layoutColumn": 1
     },
     {
       "id": "pluggnb",
       "name": "Pluggnb",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2017,
       "type": "microgenre",
       "description": "Plugg rhythms filtered through lush R&B chords, melodic vocal runs and atmospheric synth textures.",
       "anchor": false,
-      "x": 2245,
-      "y": 858,
+      "x": 1005,
+      "y": 903,
       "layoutColumn": 2
     },
     {
       "id": "rage",
       "name": "Rage",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2019,
       "type": "microgenre",
       "description": "High-impact trap with saturated synthetic leads and emphatic, high-energy rhythmic arrangements.",
       "anchor": true,
-      "x": 2013,
-      "y": 1230,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 946,
+      "layoutColumn": 0
     },
     {
       "id": "sigilkore",
       "name": "Sigilkore",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2019,
       "type": "microgenre",
       "description": "Occult-coded online rap centred on chopped mixing, bitcrushing, pitch manipulation and abrasive digital effects.",
       "anchor": false,
-      "x": 1773,
-      "y": 902,
-      "layoutColumn": 0
+      "x": 850,
+      "y": 946,
+      "layoutColumn": 1
     },
     {
       "id": "hexd",
       "name": "HexD",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2019,
       "type": "microgenre",
       "description": "Aggressively bitcrushed, pitch-shifted rap and trance-associated mixing aesthetic from internet communities.",
       "anchor": false,
-      "x": 2253,
-      "y": 958,
+      "x": 1005,
+      "y": 946,
       "layoutColumn": 2
     },
     {
       "id": "jerkrevival",
       "name": "Jerk revival",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2022,
       "type": "scene",
       "description": "Off-kilter, quick-moving internet rap reworking the earlier jerk sound with new synth and low-end approaches.",
       "anchor": false,
-      "x": 2017,
-      "y": 1030,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 989,
+      "layoutColumn": 0
     },
     {
       "id": "krushclub",
       "name": "Krushclub",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2022,
       "type": "microgenre",
       "description": "Club-energy rap and electronic hybrids with heavily processed vocal and bass sounds.",
       "anchor": false,
-      "x": 2245,
-      "y": 1058,
-      "layoutColumn": 2
+      "x": 850,
+      "y": 989,
+      "layoutColumn": 1
     },
     {
       "id": "phonk",
       "name": "Phonk",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2012,
       "type": "scene",
       "description": "Memphis-rap-derived sample textures and distorted underground hip-hop practices, later taking varied forms online.",
       "anchor": false,
-      "x": 1779,
-      "y": 1102,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 989,
+      "layoutColumn": 2
     },
     {
       "id": "driftphonk",
       "name": "Drift phonk",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 2019,
       "type": "microgenre",
       "description": "A later electronically intensified phonk branch associated with cowbells, heavy bass and short-form video.",
       "anchor": false,
-      "x": 2008,
-      "y": 1130,
-      "layoutColumn": 1
+      "x": 695,
+      "y": 1032,
+      "layoutColumn": 0
     },
     {
       "id": "abstract-hip-hop",
       "name": "Abstract hip-hop",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 1990,
       "type": "genre",
       "description": "Hip-hop informed by collage, unusual beats and experimental lyrical or instrumental structures.",
       "anchor": false,
-      "x": 2239,
-      "y": 1158,
-      "layoutColumn": 2
+      "x": 850,
+      "y": 1032,
+      "layoutColumn": 1
     },
     {
       "id": "alternative-hip-hop",
       "name": "Alternative hip-hop",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 1980,
       "type": "umbrella",
       "description": "Hip-hop that departs from dominant commercial sounds through distinctive sonic and artistic approaches.",
       "anchor": true,
-      "x": 1782,
-      "y": 1302,
-      "layoutColumn": 0
+      "x": 1005,
+      "y": 1032,
+      "layoutColumn": 2
     },
     {
       "id": "experimental-hip-hop",
       "name": "Experimental hip-hop",
-      "family": "rap",
+      "family": "hip-hop",
       "year": 1990,
       "type": "umbrella",
       "description": "Open-ended hip-hop using exploratory composition, unconventional timbre and hybrid influences.",
       "anchor": false,
-      "x": 1778,
-      "y": 1202,
+      "x": 695,
+      "y": 1075,
       "layoutColumn": 0
     },
     {
       "id": "trip-hop",
       "name": "Trip-hop",
-      "family": "rap",
+      "family": "electronic",
       "year": 1990,
       "type": "genre",
       "description": "Downtempo breaks, sampling and atmospheric songcraft associated with early-1990s UK scenes.",
       "anchor": false,
-      "x": 2245,
-      "y": 1258,
-      "layoutColumn": 2
+      "x": 105,
+      "y": 636,
+      "layoutColumn": 0
     }
   ],
   "links": [
