@@ -21,3 +21,7 @@ vm.runInNewContext(readFileSync("artists-data.js","utf8"),context);
 assert.equal(new Set(context.window.YUZ_ARTISTS.map(a=>a.id)).size,context.window.YUZ_ARTISTS.length);
 for(const a of context.window.YUZ_ARTISTS){for(const id of a.genres)assert(ids.has(id),id);for(const t of a.territories)assert(families.has(t),t);assert(new URL(a.url).protocol==="https:");}
 console.log("Artist IDs, genre references, territories and listening URLs passed.");
+
+assert(context.window.YUZ_ARTISTS.length>=20,'Catalogue expansion missing');
+for(const a of context.window.YUZ_ARTISTS){const u=new URL(a.recording.embed);assert.equal(u.hostname,'bandcamp.com');assert(/^\/EmbeddedPlayer\/(album|track)=\d+\//.test(u.pathname));assert(a.recording.title);assert.equal(new URL(a.recording.url).protocol,'https:');for(const url of Object.values(a.listenOn))assert.equal(new URL(url).protocol,'https:');}
+console.log(`Verified ${context.window.YUZ_ARTISTS.length} artist recording entries and embedded player URLs.`);
