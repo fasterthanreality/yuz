@@ -24,3 +24,5 @@ for(const id of ['idm','soundscape','uk-hip-hop']){
 }
 assert(!artists.find(a=>a.id==='burial').genres.includes('soundscape'),'Burial must not be a Soundscape representative');
 console.log('Featured selections passed: five direct artists for each priority sound.');
+
+assert(!visible.nodes.some(n=>n.id==='isolationism'),'Unpopulated Isolationism must remain unpublished');
