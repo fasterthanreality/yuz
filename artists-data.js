@@ -1306,5 +1306,27 @@ window.YUZ_ARTISTS = [
     },
     "source": "https://sessionvictim.bandcamp.com/album/the-disconnect",
     "checked": "2026-10-31"
+  },
+  {
+    "id": "alfredo-violante-widmer",
+    "name": "Alfredo Violante Widmer",
+    "genres": [
+      "deconstructed"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Futuristic electronic music exploring the relationship between the human body and machine.",
+    "url": "https://alfredoviolantewidmer.bandcamp.com/",
+    "recording": {
+      "title": "Ergonomic",
+      "url": "https://alfredoviolantewidmer.bandcamp.com/track/ergonomic",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/track=2529753354/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://alfredoviolantewidmer.bandcamp.com/track/ergonomic"
+    },
+    "source": "https://alfredoviolantewidmer.bandcamp.com/track/ergonomic",
+    "checked": "2026-10-31"
   }
 ];
