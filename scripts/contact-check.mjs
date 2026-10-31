@@ -4,7 +4,7 @@ import {createHmac} from 'node:crypto';
 process.env.RESEND_API_KEY='test-only-key';
 const payload=(Date.now()-5000)+'.test';const token=payload+'.'+createHmac('sha256',process.env.RESEND_API_KEY).update(payload).digest('hex');
 let sent=0;global.fetch=async(url,options)=>{sent++;const b=JSON.parse(options.body);assert.equal(b.to[0],'yuz@fasterthanreality.com');assert.equal(b.reply_to,'listener@example.com');return {ok:true};};
-async function call(body,origin='https://www.yuz.media'){let status,data;await handler({method:'POST',headers:{origin,'content-type':'application/json','x-forwarded-for':'test'},body},{setHeader(){},status(n){status=n;return this;},json(b){data=b;}});return {status,data};}
+async function call(body,origin='https://www.yuz.media',ip='test'){let status,data;await handler({method:'POST',headers:{origin,'content-type':'application/json','x-forwarded-for':ip},body},{setHeader(){},status(n){status=n;return this;},json(b){data=b;}});return {status,data};}
 const valid={token,name:'Listener',email:'listener@example.com',message:'Test enquiry for YUZ.'};
 assert.equal((await call(valid,'https://example.com')).status,403);
 assert.equal((await call({...valid,email:'invalid'})).status,400);
@@ -15,3 +15,17 @@ assert.equal((await call(valid)).status,200);
 assert.equal(sent,1);
 global.fetch=async()=>({ok:false});assert.equal((await call(valid)).status,502);
 console.log('Contact checks passed: origin, input, signed token, honeypot, delivery payload, failure reporting.');
+
+const suggestion={token,type:'artist-suggestion',artist:'Suggested artist',sound:'Isolationism',bandcamp:'https://artist.bandcamp.com/album/recording'};
+let suggestionPayload;
+global.fetch=async(url,options)=>{suggestionPayload=JSON.parse(options.body);return {ok:true};};
+for(const bandcamp of ['https://bandcamp.com.evil.test/album/recording','http://artist.bandcamp.com/','https://artist.bandcamp.com:123/','https://user:pass@artist.bandcamp.com/','https://artist.bandcamp.com/merch/item'])assert.equal((await call({...suggestion,bandcamp})).status,400);
+assert.equal((await call({...suggestion,artist:''})).status,400);
+assert.equal((await call({...suggestion,email:'invalid'})).status,400);
+assert.equal((await call(suggestion,'https://example.com')).status,403);
+assert.equal((await call(suggestion,'https://www.yuz.media','suggestions')).status,200);
+assert.equal(suggestionPayload.subject,'YUZ artist suggestion');assert(!('reply_to' in suggestionPayload));assert(suggestionPayload.text.includes('Isolationism'));assert(suggestionPayload.text.includes(suggestion.bandcamp));
+assert.equal((await call({...suggestion,email:'listener@example.com'},'https://www.yuz.media','suggestions')).status,200);assert.equal(suggestionPayload.reply_to,'listener@example.com');
+global.fetch=async()=>({ok:false});assert.equal((await call(suggestion,'https://www.yuz.media','suggestions')).status,502);
+assert.equal((await call(suggestion,'https://www.yuz.media','suggestions')).status,429);
+console.log('Artist suggestion checks passed: required fields, Bandcamp URL validation, optional reply email, delivery payload, failures and rate limit.');

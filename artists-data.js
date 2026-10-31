@@ -1667,5 +1667,27 @@ window.YUZ_ARTISTS = [
     },
     "source": "https://leescott.bandcamp.com/album/butter-fly",
     "checked": "2026-10-31"
+  },
+  {
+    "id": "plaid",
+    "name": "Plaid",
+    "genres": [
+      "idm"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Interlocking melodies and intricate rhythms from Ed Handley and Andy Turner.",
+    "url": "https://plaid.bandcamp.com/",
+    "recording": {
+      "title": "The Digging Remedy",
+      "url": "https://plaid.bandcamp.com/album/the-digging-remedy",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1946538509/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://plaid.bandcamp.com/album/the-digging-remedy"
+    },
+    "source": "https://plaid.bandcamp.com/album/the-digging-remedy",
+    "checked": "2026-10-31"
   }
 ];

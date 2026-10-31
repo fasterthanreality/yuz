@@ -18,9 +18,21 @@ export default async function handler(req,res){
  const parts=String(b.token||'').split('.');const payload=parts.slice(0,2).join('.');
  if(parts.length!==3||!/^[a-f0-9]{64}$/.test(parts[2])||!timingSafeEqual(Buffer.from(parts[2]),Buffer.from(sign(payload))))return reply(400,'Please reload the page and try again.');
  const age=Date.now()-Number(parts[0]);if(!Number.isFinite(age)||age<2000||age>1200000)return reply(400,'Please wait a moment, or reload the page if it has been open a while.');
- const name=typeof b.name==='string'?b.name.trim():'';const email=typeof b.email==='string'?b.email.trim():'';const message=typeof b.message==='string'?b.message.trim():'';
- if(!name||name.length>100||email.length>254||!/^\S+@[^\s@]+\.[^\s@]+$/.test(email)||/[\r\n]/.test(email)||message.length<10||message.length>4000)return reply(400,'Please check your name, email and message (10–4,000 characters).');
+ const clean=(key)=>typeof b[key]==='string'?b[key].trim():'';
+ const email=clean('email');const validEmail=email.length<=254&&/^\S+@[^\s@]+\.[^\s@]+$/.test(email)&&!/[\r\n]/.test(email);
+ let subject='YUZ website enquiry',text;
+ if(b.type==='artist-suggestion'){
+  const artist=clean('artist'),sound=clean('sound'),bandcamp=clean('bandcamp'),note=clean('note');let url;
+  try{url=new URL(bandcamp);}catch{return reply(400,'Please add a valid Bandcamp link.');}
+  if(url.protocol!=='https:'||!url.hostname.endsWith('.bandcamp.com')||url.username||url.password||url.port||!/^\/(?:$|music\/?$|(?:album|track)\/[^/]+\/?$)/.test(url.pathname)||bandcamp.length>1000)return reply(400,'Please use an HTTPS Bandcamp artist, album or track link.');
+  if(!artist||artist.length>100||!sound||sound.length>100||/[\r\n]/.test(artist+sound)||note.length>1500||(email&&!validEmail))return reply(400,'Please check the artist, sound and optional email.');
+  subject='YUZ artist suggestion';text=`Artist: ${artist}\nSound: ${sound}\nBandcamp: ${bandcamp}\nReply email: ${email||'Not provided'}\n\n${note||'No note provided.'}`;
+ }else{
+  const name=clean('name'),message=clean('message');
+  if(!name||name.length>100||!validEmail||message.length<10||message.length>4000)return reply(400,'Please check your name, email and message (10–4,000 characters).');
+  text=`From: ${name}\nReply email: ${email}\n\n${message}`;
+ }
  const ip=String(req.headers['x-forwarded-for']||'unknown').split(',')[0];const now=Date.now();for(const [k,v] of buckets)if(v.until<now)buckets.delete(k);
  const key=sign(ip);let bucket=buckets.get(key)||{count:0,until:now+600000};if(bucket.count>=3)return reply(429,'Please wait a few minutes before sending another message.');bucket.count++;buckets.set(key,bucket);
- try{const r=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+process.env.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':sign(b.token)},body:JSON.stringify({from:'YUZ Contact <hello@contact.yuz.media>',to:['yuz@fasterthanreality.com'],reply_to:email,subject:'YUZ website enquiry',text:`From: ${name}\nReply email: ${email}\n\n${message}`}),signal:AbortSignal.timeout(12000)});if(!r.ok)return reply(502,'Your message could not be sent. Please try again later.');return reply(200);}catch{return reply(502,'Your message could not be sent. Please try again later.');}
+ try{const r=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+process.env.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':sign(b.token)},body:JSON.stringify({from:'YUZ Contact <hello@contact.yuz.media>',to:['yuz@fasterthanreality.com'],...(email?{reply_to:email}:{}),subject,text}),signal:AbortSignal.timeout(12000)});if(!r.ok)return reply(502,'Your message could not be sent. Please try again later.');return reply(200);}catch{return reply(502,'Your message could not be sent. Please try again later.');}
 }

@@ -33,3 +33,5 @@ assert(html.includes('href="/contact.html"'));
 assert(contact.includes('id="contactForm"'));
 for(const m of contact.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
 console.log('Dedicated contact page and scripts passed.');
+
+const suggest=readFileSync('suggest.html','utf8');assert(!html.includes('id="suggestForm"'));assert(html.includes('/suggest.html'));for(const m of suggest.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);console.log('Separate artist suggestion page and scripts passed.');
