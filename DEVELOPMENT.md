@@ -17,7 +17,7 @@ Vercel: fasterthanreality / yuz (prj_0fLWvCMIuXuiG0k20hKbDRbMaEiE).
 7. Review checks and preview before merging. Treat merging main as a production release; the current deployment was built from main via Git.
 8. Verify production after release and record its commit and deployment ID. Keep the previous working deployment available for rollback.
 
-Never replace production using ZIP uploads. Compare proposed release files against source on a branch. Atlas 0.4 remains unavailable locally; this navigation change is based on 0.3 and is not the artist-discovery release.
+Never replace production using ZIP uploads. Compare proposed release files against source on a branch. The original ChatGPT Atlas 0.4 ZIP was not recovered. The artist-discovery pilot was subsequently rebuilt here. Use releases/README.md for snapshot and recovery procedures.
 
 ## Verified baseline, 29 October 2026
 
