@@ -5,7 +5,7 @@ const sign=(s)=>createHmac('sha256',process.env.RESEND_API_KEY).update(s).digest
 export default async function handler(req,res){
  res.setHeader('Cache-Control','no-store');
  const reply=(code,error)=>res.status(code).json(error?{error}:{ok:true});
- if(!process.env.RESEND_API_KEY)return reply(503,'Contact is temporarily unavailable. Please email yuz@fasterthanreality.com.');
+ if(!process.env.RESEND_API_KEY)return reply(503,'Contact is temporarily unavailable. Please try again later.');
  if(req.method==='GET'){const payload=Date.now()+'.'+randomBytes(16).toString('hex');return res.status(200).json({token:payload+'.'+sign(payload)});}
  if(req.method!=='POST'){res.setHeader('Allow','GET, POST');return reply(405,'Method not allowed.');}
  const origin=req.headers.origin;
@@ -22,5 +22,5 @@ export default async function handler(req,res){
  if(!name||name.length>100||email.length>254||!/^\S+@[^\s@]+\.[^\s@]+$/.test(email)||/[\r\n]/.test(email)||message.length<10||message.length>4000)return reply(400,'Please check your name, email and message (10–4,000 characters).');
  const ip=String(req.headers['x-forwarded-for']||'unknown').split(',')[0];const now=Date.now();for(const [k,v] of buckets)if(v.until<now)buckets.delete(k);
  const key=sign(ip);let bucket=buckets.get(key)||{count:0,until:now+600000};if(bucket.count>=3)return reply(429,'Please wait a few minutes before sending another message.');bucket.count++;buckets.set(key,bucket);
- try{const r=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+process.env.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':sign(b.token)},body:JSON.stringify({from:'YUZ Contact <hello@contact.yuz.media>',to:['yuz@fasterthanreality.com'],reply_to:email,subject:'YUZ website enquiry',text:`From: ${name}\nReply email: ${email}\n\n${message}`}),signal:AbortSignal.timeout(12000)});if(!r.ok)return reply(502,'Your message could not be sent. Please try later or email yuz@fasterthanreality.com.');return reply(200);}catch{return reply(502,'Your message could not be sent. Please try later or email yuz@fasterthanreality.com.');}
+ try{const r=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+process.env.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':sign(b.token)},body:JSON.stringify({from:'YUZ Contact <hello@contact.yuz.media>',to:['yuz@fasterthanreality.com'],reply_to:email,subject:'YUZ website enquiry',text:`From: ${name}\nReply email: ${email}\n\n${message}`}),signal:AbortSignal.timeout(12000)});if(!r.ok)return reply(502,'Your message could not be sent. Please try again later.');return reply(200);}catch{return reply(502,'Your message could not be sent. Please try again later.');}
 }
