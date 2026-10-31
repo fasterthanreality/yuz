@@ -1,0 +1,16 @@
+[
+  {
+    "version": "production-v0.3-d5aa9e7",
+    "status": "production baseline verified 29 October 2026",
+    "commit": "d5aa9e73fdc54435eb3b9715e20abd27f9eb808a",
+    "url": "https://yuz.media",
+    "backupFolder": "/Users/avw-macbook/Documents/Codex/YUZ-Releases/production-v0.3-d5aa9e7"
+  },
+  {
+    "version": "v0.4.0-rc.1",
+    "status": "candidate, not released",
+    "commit": "b645289d136a32e25d76f34910a1c18fdb064a69",
+    "url": "https://yuz-hq5exp6e1-fasterthanreality.vercel.app",
+    "backupFolder": "/Users/avw-macbook/Documents/Codex/YUZ-Releases/v0.4.0-rc.1"
+  }
+]
