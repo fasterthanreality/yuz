@@ -1,4 +1,4 @@
-/* YUZ editorial selection. Associations are suggested listening routes. Official recording pages checked 31 October 2026; availability remains provider-controlled. */
+/* YUZ editorial selection. Associations are suggested listening routes. Artist identities and available audio checked against official recording pages, 31 October 2026. */
 window.YUZ_ARTISTS = [
   {
     "id": "autechre",
@@ -585,6 +585,516 @@ window.YUZ_ARTISTS = [
       "Bandcamp": "https://lucreciadalt.bandcamp.com/album/caes-ep"
     },
     "source": "https://lucreciadalt.bandcamp.com/album/caes-ep",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "squiduk",
+    "name": "Squid",
+    "genres": [
+      "art-punk",
+      "post-punk",
+      "experimental-rock"
+    ],
+    "territories": [
+      "alt-rock"
+    ],
+    "note": "Angular guitars, shifting rhythms and ensemble experiments.",
+    "url": "https://squiduk.bandcamp.com/",
+    "recording": {
+      "title": "Cowards",
+      "url": "https://squiduk.bandcamp.com/album/cowards",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1404995706/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://squiduk.bandcamp.com/album/cowards"
+    },
+    "source": "https://squiduk.bandcamp.com/album/cowards",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "fontainesdc",
+    "name": "Fontaines D.C.",
+    "genres": [
+      "post-punk-revival",
+      "indie-rock"
+    ],
+    "territories": [
+      "alt-rock"
+    ],
+    "note": "Guitar music connecting post-punk momentum and melodic songwriting.",
+    "url": "https://fontainesdc.bandcamp.com/",
+    "recording": {
+      "title": "Dopamine Chamber",
+      "url": "https://fontainesdc.bandcamp.com/album/dopamine-chamber",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1524188113/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://fontainesdc.bandcamp.com/album/dopamine-chamber"
+    },
+    "source": "https://fontainesdc.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "idlesband",
+    "name": "IDLES",
+    "genres": [
+      "art-punk",
+      "post-punk",
+      "noise-rock"
+    ],
+    "territories": [
+      "alt-rock"
+    ],
+    "note": "Physical, rhythm-driven guitar music with abrasive edges.",
+    "url": "https://idlesband.bandcamp.com/",
+    "recording": {
+      "title": "BRUTALISM",
+      "url": "https://idlesband.bandcamp.com/album/brutalism",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=277771359/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://idlesband.bandcamp.com/album/brutalism"
+    },
+    "source": "https://idlesband.bandcamp.com/album/brutalism",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "mannequinpussy",
+    "name": "MANNEQUIN PUSSY",
+    "genres": [
+      "garage-punk",
+      "noise-pop",
+      "indie-rock"
+    ],
+    "territories": [
+      "alt-rock"
+    ],
+    "note": "A route between noisy punk energy and melodic guitar songs.",
+    "url": "https://mannequinpussy.bandcamp.com/",
+    "recording": {
+      "title": "I Got Heaven",
+      "url": "https://mannequinpussy.bandcamp.com/album/i-got-heaven-2",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1798724224/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://mannequinpussy.bandcamp.com/album/i-got-heaven-2"
+    },
+    "source": "https://mannequinpussy.bandcamp.com/album/i-got-heaven-2",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "modelactriz",
+    "name": "Model/Actriz",
+    "genres": [
+      "art-punk",
+      "dance-punk",
+      "noise-rock"
+    ],
+    "territories": [
+      "alt-rock",
+      "electronic"
+    ],
+    "note": "Dance-floor repetition and distorted guitar textures.",
+    "url": "https://modelactriz.bandcamp.com/",
+    "recording": {
+      "title": "Swan Songs – EP",
+      "url": "https://modelactriz.bandcamp.com/album/swan-songs-ep",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3405849700/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://modelactriz.bandcamp.com/album/swan-songs-ep"
+    },
+    "source": "https://modelactriz.bandcamp.com/album/swan-songs-ep",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "guerillatoss",
+    "name": "Guerilla Toss",
+    "genres": [
+      "art-punk",
+      "dance-punk",
+      "psych-pop"
+    ],
+    "territories": [
+      "alt-rock",
+      "alt-pop"
+    ],
+    "note": "Elastic rhythms and bright, unruly pop forms.",
+    "url": "https://guerillatoss.bandcamp.com/",
+    "recording": {
+      "title": "You're Weird Now",
+      "url": "https://guerillatoss.bandcamp.com/album/youre-weird-now",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1450542665/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://guerillatoss.bandcamp.com/album/youre-weird-now"
+    },
+    "source": "https://guerillatoss.bandcamp.com/album/youre-weird-now",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "feeblelittlehorse",
+    "name": "feeble little horse",
+    "genres": [
+      "noise-pop",
+      "shoegaze",
+      "indie-rock"
+    ],
+    "territories": [
+      "alt-rock",
+      "alt-pop"
+    ],
+    "note": "Dense guitar textures around compact, off-centre songs.",
+    "url": "https://feeblelittlehorse.bandcamp.com/",
+    "recording": {
+      "title": "bitknot",
+      "url": "https://feeblelittlehorse.bandcamp.com/album/bitknot",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1981544800/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://feeblelittlehorse.bandcamp.com/album/bitknot"
+    },
+    "source": "https://feeblelittlehorse.bandcamp.com/album/bitknot",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "wednesdayband",
+    "name": "Wednesday",
+    "genres": [
+      "alt-country",
+      "shoegaze",
+      "indie-rock"
+    ],
+    "territories": [
+      "alt-rock",
+      "acoustic"
+    ],
+    "note": "A route between country-inflected stories and heavy guitar textures.",
+    "url": "https://wednesdayband.bandcamp.com/",
+    "recording": {
+      "title": "Bleeds Deluxe",
+      "url": "https://wednesdayband.bandcamp.com/album/bleeds-deluxe",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3466150964/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://wednesdayband.bandcamp.com/album/bleeds-deluxe"
+    },
+    "source": "https://wednesdayband.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "chatpile",
+    "name": "Chat Pile",
+    "genres": [
+      "noise-rock",
+      "experimental-rock"
+    ],
+    "territories": [
+      "alt-rock"
+    ],
+    "note": "Heavy, abrasive textures and confrontational spoken delivery.",
+    "url": "https://chatpile.bandcamp.com/",
+    "recording": {
+      "title": "Who Loves The Sun",
+      "url": "https://chatpile.bandcamp.com/album/who-loves-the-sun",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3543734916/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://chatpile.bandcamp.com/album/who-loves-the-sun"
+    },
+    "source": "https://chatpile.bandcamp.com/album/who-loves-the-sun",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "machinegirl",
+    "name": "Machine Girl",
+    "genres": [
+      "breakcore",
+      "jungle-revival"
+    ],
+    "territories": [
+      "electronic",
+      "alt-rock"
+    ],
+    "note": "Frantic digital rhythm and distorted punk energy.",
+    "url": "https://machinegirl.bandcamp.com/",
+    "recording": {
+      "title": "The Ugly Art Reissue",
+      "url": "https://machinegirl.bandcamp.com/album/the-ugly-art-reissue",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1118801018/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://machinegirl.bandcamp.com/album/the-ugly-art-reissue"
+    },
+    "source": "https://machinegirl.bandcamp.com/album/the-ugly-art-reissue",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "foodman",
+    "name": "foodman",
+    "genres": [
+      "footwork",
+      "juke",
+      "deconstructed"
+    ],
+    "territories": [
+      "electronic",
+      "world"
+    ],
+    "note": "Off-centre rhythmic detail and playful electronic textures.",
+    "url": "https://foodman.bandcamp.com/",
+    "recording": {
+      "title": "Hebi EP",
+      "url": "https://foodman.bandcamp.com/album/hebi-ep",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=11401405/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://foodman.bandcamp.com/album/hebi-ep"
+    },
+    "source": "https://foodman.bandcamp.com/album/hebi-ep",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "objectblue",
+    "name": "object blue",
+    "genres": [
+      "deconstructed",
+      "postclub",
+      "leftfield-bass"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Sculpted sound design and unusual club rhythms.",
+    "url": "https://objectblue.bandcamp.com/",
+    "recording": {
+      "title": "what resembles the grave but isn't",
+      "url": "https://objectblue.bandcamp.com/album/what-resembles-the-grave-but-isnt",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=580919617/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://objectblue.bandcamp.com/album/what-resembles-the-grave-but-isnt"
+    },
+    "source": "https://objectblue.bandcamp.com/album/what-resembles-the-grave-but-isnt",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "jessicapratt",
+    "name": "Jessica Pratt",
+    "genres": [
+      "psych-folk",
+      "alternative-folk",
+      "singer-songwriter"
+    ],
+    "territories": [
+      "acoustic"
+    ],
+    "note": "Intimate songwriting and hazy, spare arrangements.",
+    "url": "https://jessicapratt.bandcamp.com/",
+    "recording": {
+      "title": "Here in the Pitch",
+      "url": "https://jessicapratt.bandcamp.com/album/here-in-the-pitch",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3043550970/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://jessicapratt.bandcamp.com/album/here-in-the-pitch"
+    },
+    "source": "https://jessicapratt.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "adriannelenker",
+    "name": "Adrianne Lenker",
+    "genres": [
+      "indie-folk",
+      "alternative-folk",
+      "singer-songwriter"
+    ],
+    "territories": [
+      "acoustic"
+    ],
+    "note": "Close, detailed songwriting carried by voice and guitar.",
+    "url": "https://adriannelenker.bandcamp.com/",
+    "recording": {
+      "title": "Live at Revolution Hall",
+      "url": "https://adriannelenker.bandcamp.com/album/live-at-revolution-hall",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3654321044/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://adriannelenker.bandcamp.com/album/live-at-revolution-hall"
+    },
+    "source": "https://adriannelenker.bandcamp.com/album/live-at-revolution-hall",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "lomelda",
+    "name": "Lomelda",
+    "genres": [
+      "indie-folk",
+      "indie-rock",
+      "singer-songwriter"
+    ],
+    "territories": [
+      "acoustic",
+      "alt-rock"
+    ],
+    "note": "Intimate songs and subtle shifts of guitar texture.",
+    "url": "https://lomelda.bandcamp.com/",
+    "recording": {
+      "title": "TODAY1",
+      "url": "https://lomelda.bandcamp.com/album/today1",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2509287128/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://lomelda.bandcamp.com/album/today1"
+    },
+    "source": "https://lomelda.bandcamp.com/album/today1",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "fennesz",
+    "name": "fennesz",
+    "genres": [
+      "ambient",
+      "glitch",
+      "drone"
+    ],
+    "territories": [
+      "ambient",
+      "electronic"
+    ],
+    "note": "Guitar and digital processing stretched into immersive textures.",
+    "url": "https://fennesz.bandcamp.com/",
+    "recording": {
+      "title": "LIVE AT EMPTY BOTTLE / CHICAGO",
+      "url": "https://fennesz.bandcamp.com/album/live-at-empty-bottle-chicago",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1886856297/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://fennesz.bandcamp.com/album/live-at-empty-bottle-chicago"
+    },
+    "source": "https://fennesz.bandcamp.com/album/live-at-empty-bottle-chicago",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "tinariwen",
+    "name": "Tinariwen",
+    "genres": [
+      "psychedelic-rock",
+      "traditional-folk"
+    ],
+    "territories": [
+      "world",
+      "acoustic",
+      "alt-rock"
+    ],
+    "note": "A listening route into Tuareg guitar music and collective song.",
+    "url": "https://tinariwen.bandcamp.com/",
+    "recording": {
+      "title": "Hoggar",
+      "url": "https://tinariwen.bandcamp.com/album/hoggar",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3693809124/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://tinariwen.bandcamp.com/album/hoggar"
+    },
+    "source": "https://tinariwen.bandcamp.com/album/hoggar",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "jpegmafia",
+    "name": "JPEGMAFIA",
+    "genres": [
+      "experimental-hip-hop",
+      "industrial-hip-hop"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "Fragmented production, distorted texture and restless rap forms.",
+    "url": "https://jpegmafia.bandcamp.com/",
+    "recording": {
+      "title": "EXPERIMENTAL RAP",
+      "url": "https://jpegmafia.bandcamp.com/album/experimental-rap",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2195492462/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://jpegmafia.bandcamp.com/album/experimental-rap"
+    },
+    "source": "https://jpegmafia.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "backxwash",
+    "name": "Backxwash",
+    "genres": [
+      "industrial-hip-hop",
+      "experimental-hip-hop"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "Heavy, abrasive production connecting industrial texture and rap.",
+    "url": "https://backxwash.bandcamp.com/",
+    "recording": {
+      "title": "Only Dust Remains (Instrumental Album)",
+      "url": "https://backxwash.bandcamp.com/album/only-dust-remains-instrumental-album",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=717283538/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://backxwash.bandcamp.com/album/only-dust-remains-instrumental-album"
+    },
+    "source": "https://backxwash.bandcamp.com/album/only-dust-remains-instrumental-album",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "dannybrown",
+    "name": "Danny Brown",
+    "genres": [
+      "experimental-hip-hop",
+      "alternative-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Restless vocal delivery over unpredictable production.",
+    "url": "https://dannybrown.bandcamp.com/",
+    "recording": {
+      "title": "Atrocity Exhibition (10 Year Anniversary Edition)",
+      "url": "https://dannybrown.bandcamp.com/album/atrocity-exhibition-10-year-anniversary-edition",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2033506859/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://dannybrown.bandcamp.com/album/atrocity-exhibition-10-year-anniversary-edition"
+    },
+    "source": "https://dannybrown.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "kaitlynaureliasmith",
+    "name": "Kaitlyn Aurelia Smith",
+    "genres": [
+      "ambient",
+      "electronica",
+      "berlin-school"
+    ],
+    "territories": [
+      "ambient",
+      "electronic"
+    ],
+    "note": "Layered synthesizer patterns and spacious electronic arrangements.",
+    "url": "https://kaitlynaureliasmith.bandcamp.com/",
+    "recording": {
+      "title": "Ruin: It's Not Just Music",
+      "url": "https://kaitlynaureliasmith.bandcamp.com/album/ruin-its-not-just-music",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3366868165/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://kaitlynaureliasmith.bandcamp.com/album/ruin-its-not-just-music"
+    },
+    "source": "https://kaitlynaureliasmith.bandcamp.com/album/ruin-its-not-just-music",
     "checked": "2026-10-31"
   }
 ];
