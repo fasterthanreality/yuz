@@ -1,6 +1,6 @@
 /* YUZ Atlas catalogue — editorial draft. See README before changing connections. */
 window.YUZ_DATA = {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "date": "2026-10-31",
   "scope": "Expandable, editorially curated taxonomy of connected musical genres, scenes, approaches and descriptive terms. Not a directory of reviewed releases. Relationships are interpretive, and dates approximate.",
   "families": [
