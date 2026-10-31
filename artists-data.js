@@ -1,4 +1,4 @@
-/* YUZ editorial selection. Associations are suggested listening routes. Artist identities and available audio checked against official recording pages, 31 October 2026. */
+/* YUZ editorial selection. Official recording pages and available audio checked 31 October 2026. */
 window.YUZ_ARTISTS = [
   {
     "id": "autechre",
@@ -1095,6 +1095,106 @@ window.YUZ_ARTISTS = [
       "Bandcamp": "https://kaitlynaureliasmith.bandcamp.com/album/ruin-its-not-just-music"
     },
     "source": "https://kaitlynaureliasmith.bandcamp.com/album/ruin-its-not-just-music",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "drabmajesty",
+    "name": "DRAB MAJESTY",
+    "genres": [
+      "darkwave",
+      "coldwave",
+      "dream-pop"
+    ],
+    "territories": [
+      "alt-rock",
+      "electronic"
+    ],
+    "note": "Hazy guitar and synthesizer textures around dark, melodic songs.",
+    "url": "https://drabmajesty.bandcamp.com/",
+    "recording": {
+      "title": "An Object In Motion",
+      "url": "https://drabmajesty.bandcamp.com/album/an-object-in-motion",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1463650365/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://drabmajesty.bandcamp.com/album/an-object-in-motion"
+    },
+    "source": "https://drabmajesty.bandcamp.com/album/an-object-in-motion",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "lebanonhanover",
+    "name": "Lebanon Hanover",
+    "genres": [
+      "darkwave",
+      "coldwave",
+      "minimal-synth"
+    ],
+    "territories": [
+      "alt-rock",
+      "electronic"
+    ],
+    "note": "Spare bass lines, drum machines and stark vocal melodies.",
+    "url": "https://lebanonhanover.bandcamp.com/",
+    "recording": {
+      "title": "Asylum Lullabies",
+      "url": "https://lebanonhanover.bandcamp.com/album/asylum-lullabies-2",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=91358817/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://lebanonhanover.bandcamp.com/album/asylum-lullabies-2"
+    },
+    "source": "https://lebanonhanover.bandcamp.com/album/asylum-lullabies-2",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "boyharsher",
+    "name": "Boy Harsher",
+    "genres": [
+      "darkwave",
+      "minimal-synth",
+      "ebm"
+    ],
+    "territories": [
+      "electronic",
+      "alt-pop"
+    ],
+    "note": "Minimal electronic rhythms and dark, direct pop forms.",
+    "url": "https://boyharsher.bandcamp.com/",
+    "recording": {
+      "title": "GET MEAN",
+      "url": "https://boyharsher.bandcamp.com/album/get-mean",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1507079760/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://boyharsher.bandcamp.com/album/get-mean"
+    },
+    "source": "https://boyharsher.bandcamp.com/album/get-mean",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "djrum",
+    "name": "Djrum",
+    "genres": [
+      "uk-bass",
+      "ambient-techno",
+      "dubstep"
+    ],
+    "territories": [
+      "electronic",
+      "ambient"
+    ],
+    "note": "Detailed rhythm and spacious textures spanning bass music and ambient electronics.",
+    "url": "https://djrum.bandcamp.com/",
+    "recording": {
+      "title": "DJ-Kicks: Djrum",
+      "url": "https://djrum.bandcamp.com/album/dj-kicks-djrum-2",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2319108626/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://djrum.bandcamp.com/album/dj-kicks-djrum-2"
+    },
+    "source": "https://djrum.bandcamp.com/",
     "checked": "2026-10-31"
   }
 ];
