@@ -25,3 +25,11 @@ console.log("Artist IDs, genre references, territories and listening URLs passed
 assert(context.window.YUZ_ARTISTS.length>=20,'Catalogue expansion missing');
 for(const a of context.window.YUZ_ARTISTS){const u=new URL(a.recording.embed);assert.equal(u.hostname,'bandcamp.com');assert(/^\/EmbeddedPlayer\/(album|track)=\d+\//.test(u.pathname));assert(a.recording.title);assert.equal(new URL(a.recording.url).protocol,'https:');for(const url of Object.values(a.listenOn))assert.equal(new URL(url).protocol,'https:');}
 console.log(`Verified ${context.window.YUZ_ARTISTS.length} artist recording entries and embedded player URLs.`);
+
+assert(context.window.YUZ_ARTISTS.length>=40,'Catalogue expansion missing');
+const contact=readFileSync('contact.html','utf8');
+assert(!html.includes('id="contactForm"'),'Form must be on its own page');
+assert(html.includes('href="/contact.html"'));
+assert(contact.includes('id="contactForm"'));
+for(const m of contact.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
+console.log('Dedicated contact page and scripts passed.');
