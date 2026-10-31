@@ -9,6 +9,7 @@ export default async function handler(req,res){
  if(req.method==='GET'){const payload=Date.now()+'.'+randomBytes(16).toString('hex');return res.status(200).json({token:payload+'.'+sign(payload)});}
  if(req.method!=='POST'){res.setHeader('Allow','GET, POST');return reply(405,'Method not allowed.');}
  const origin=req.headers.origin;
+ if(process.env.VERCEL_ENV==='preview'&&process.env.VERCEL_URL)origins.add('https://'+process.env.VERCEL_URL);
  if(!origin||!origins.has(origin))return reply(403,'Please send your message from yuz.media.');
  if(!String(req.headers['content-type']||'').startsWith('application/json'))return reply(415,'Expected a form message.');
  let b=req.body;try{if(typeof b==='string')b=JSON.parse(b);}catch{return reply(400,'Please check your message.');}
