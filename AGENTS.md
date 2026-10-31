@@ -21,3 +21,9 @@ These are release-triggered responsibilities, not a timed background job. Do not
 - Hide any sound from map, search and related-sound navigation until it has direct verified artist content. Preserve the unpublished taxonomy in source. Never fill a sound with artists from neighbouring nodes.
 - Genre labels should represent substantial established scenes; rhythmic approaches such as Motorik are not automatically genres. The user expects breadth on the order of 100 real artists to justify a genre, not a padded catalogue of 100 unverified entries.
 - Include important established sounds such as Deep house; popularity alone is not a reason to exclude a genre. Curate representative recordings.
+
+## Featured discovery selections
+
+- Prioritise IDM, Soundscape and UK hip-hop for the current outreach preparation. Contacting the influencers requires a separate explicit instruction.
+- A sound’s first five artists are a deliberate representative introduction, not array order or a popularity chart. Store per-sound choices in featuredArtists.
+- Verify both the artist’s sustained practice and the selected recording fit the sound. A single crossover track does not justify making an artist a leading representative.
