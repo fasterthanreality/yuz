@@ -1,4 +1,4 @@
-/* YUZ editorial selection. Official recording pages and available audio checked 31 October 2026. */
+/* YUZ editorial listening routes. Official recording identities and available audio checked 31 October 2026. */
 window.YUZ_ARTISTS = [
   {
     "id": "autechre",
@@ -1195,6 +1195,116 @@ window.YUZ_ARTISTS = [
       "Bandcamp": "https://djrum.bandcamp.com/album/dj-kicks-djrum-2"
     },
     "source": "https://djrum.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "chaosinthecbd",
+    "name": "Chaos In The CBD",
+    "genres": [
+      "deep-house"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Selected listening for Deep house. The association describes this listening route, not the artist’s entire catalogue.",
+    "url": "https://chaosinthecbd.bandcamp.com/",
+    "recording": {
+      "title": "A Deeper Life",
+      "url": "https://chaosinthecbd.bandcamp.com/album/a-deeper-life",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2971352570/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://chaosinthecbd.bandcamp.com/album/a-deeper-life"
+    },
+    "source": "https://chaosinthecbd.bandcamp.com/album/a-deeper-life",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "rontrent1",
+    "name": "Ron Trent",
+    "genres": [
+      "deep-house"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Selected listening for Deep house. The association describes this listening route, not the artist’s entire catalogue.",
+    "url": "https://rontrent1.bandcamp.com/",
+    "recording": {
+      "title": "Night Wind",
+      "url": "https://rontrent1.bandcamp.com/album/night-wind-2",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3407063834/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://rontrent1.bandcamp.com/album/night-wind-2"
+    },
+    "source": "https://rontrent1.bandcamp.com/album/night-wind-2",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "fredp",
+    "name": "Fred P",
+    "genres": [
+      "deep-house"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Selected listening for Deep house. The association describes this listening route, not the artist’s entire catalogue.",
+    "url": "https://fredp.bandcamp.com/",
+    "recording": {
+      "title": "Sound Destination",
+      "url": "https://fredp.bandcamp.com/album/sound-destination",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3513163634/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://fredp.bandcamp.com/album/sound-destination"
+    },
+    "source": "https://fredp.bandcamp.com/",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "felipegordon",
+    "name": "Felipe Gordon",
+    "genres": [
+      "deep-house"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Selected listening for Deep house. The association describes this listening route, not the artist’s entire catalogue.",
+    "url": "https://felipegordon.bandcamp.com/",
+    "recording": {
+      "title": "The Multicolor EP",
+      "url": "https://felipegordon.bandcamp.com/album/the-multicolor-ep",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3877384716/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://felipegordon.bandcamp.com/album/the-multicolor-ep"
+    },
+    "source": "https://felipegordon.bandcamp.com/album/the-multicolor-ep",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "sessionvictim",
+    "name": "Session Victim",
+    "genres": [
+      "deep-house"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Selected listening for Deep house. The association describes this listening route, not the artist’s entire catalogue.",
+    "url": "https://sessionvictim.bandcamp.com/",
+    "recording": {
+      "title": "The Disconnect",
+      "url": "https://sessionvictim.bandcamp.com/album/the-disconnect",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2238571047/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://sessionvictim.bandcamp.com/album/the-disconnect"
+    },
+    "source": "https://sessionvictim.bandcamp.com/album/the-disconnect",
     "checked": "2026-10-31"
   }
 ];

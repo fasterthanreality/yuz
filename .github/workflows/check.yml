@@ -12,3 +12,4 @@ jobs:
           node-version: '24'
       - run: node scripts/check.mjs
       - run: node scripts/contact-check.mjs
+      - run: node scripts/eligibility-check.mjs

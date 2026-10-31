@@ -15,3 +15,9 @@ YUZ is a platform owned by fasterthanreality. Its old agency project is historic
 - Tag releases and save numbered source/history backups and recovery records in YUZ-Releases; publish source ZIP and manifest on GitHub Releases.
 
 These are release-triggered responsibilities, not a timed background job. Do not promise catalogue growth between releases unless a separate automation is explicitly configured.
+
+## Content eligibility
+
+- Hide any sound from map, search and related-sound navigation until it has direct verified artist content. Preserve the unpublished taxonomy in source. Never fill a sound with artists from neighbouring nodes.
+- Genre labels should represent substantial established scenes; rhythmic approaches such as Motorik are not automatically genres. The user expects breadth on the order of 100 real artists to justify a genre, not a padded catalogue of 100 unverified entries.
+- Include important established sounds such as Deep house; popularity alone is not a reason to exclude a genre. Curate representative recordings.
