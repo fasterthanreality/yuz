@@ -141,6 +141,7 @@ const backdrop=document.getElementById('dialogBack');const openDialog=()=>{backd
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDialog();closeSearch()}if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&document.activeElement!==input){e.preventDefault();input.focus()}});
 document.getElementById('mapToggle').addEventListener('click',e=>{const on=document.querySelector('.work').classList.toggle('show-map');e.currentTarget.setAttribute('aria-expanded',String(on));e.currentTarget.textContent=on?'Hide the map ↑':'Show the map ↓';camera();});
 window.addEventListener('hashchange',()=>{const id=new URLSearchParams(location.hash.slice(1)).get('genre');if(id&&byId.has(id)&&id!==selected){selected=id;filter='all';document.querySelectorAll('[data-family]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.family==='all')));render();}else if(!id&&selected){selected=null;render();}});
+document.fonts?.ready.then(scheduleLabels);
 window.addEventListener('resize',camera);
 document.getElementById('statGenres').textContent=N.length;document.getElementById('statConnections').textContent=E.length;
 const hash=new URLSearchParams(location.hash.replace(/^#/,''));const initial=hash.get('genre');if(initial&&byId.has(initial)){selected=initial;if(area.clientWidth<760){cx=byId.get(initial).x;cy=byId.get(initial).y;zoom=1.22}}else if(area.clientWidth<760){cx=260;cy=340;zoom=1.18}camera();render();
