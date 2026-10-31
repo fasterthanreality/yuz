@@ -1,6 +1,6 @@
 /* YUZ Atlas catalogue — editorial draft. See README before changing connections. */
 window.YUZ_DATA = {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "date": "2026-10-31",
   "scope": "Expandable, editorially curated taxonomy of connected musical genres, scenes, approaches and descriptive terms. Not a directory of reviewed releases. Relationships are interpretive, and dates approximate.",
   "families": [
@@ -420,6 +420,13 @@ window.YUZ_DATA = {
       "layoutColumn": 0,
       "territories": [
         "electronic"
+      ],
+      "featuredArtists": [
+        "aphex-twin",
+        "autechre",
+        "boards-of-canada",
+        "squarepusher",
+        "lorainejames"
       ]
     },
     {
@@ -788,13 +795,20 @@ window.YUZ_DATA = {
       "family": "ambient",
       "year": 1960,
       "type": "sonic characteristic",
-      "description": "An environmental or spatial organisation of sound; useful across genres, not a standalone genre by default.",
+      "description": "Compositions built around environments, spatial listening and the sounds of places. This selection centres on artists whose sustained practice explores those ideas.",
       "anchor": true,
       "x": 1280,
       "y": 956,
       "layoutColumn": 0,
       "territories": [
         "ambient"
+      ],
+      "featuredArtists": [
+        "hildegard-westerkamp",
+        "chris-watson",
+        "jana-winderen",
+        "toshiya-tsunoda",
+        "lawrence-english"
       ]
     },
     {
@@ -1936,6 +1950,10 @@ window.YUZ_DATA = {
       "layoutColumn": 0,
       "territories": [
         "electronic"
+      ],
+      "featuredArtists": [
+        "lorenzosenni",
+        "alfredo-violante-widmer"
       ]
     },
     {
@@ -2616,6 +2634,28 @@ window.YUZ_DATA = {
       "anchor": true,
       "layoutColumn": 0,
       "description": "A broad house tradition centred on groove, spacious arrangements and harmonic depth. YUZ selects individual listening routes within it rather than treating every artist or release as interchangeable."
+    },
+    {
+      "id": "uk-hip-hop",
+      "name": "UK hip-hop",
+      "family": "hip-hop",
+      "year": 1980,
+      "type": "scene",
+      "description": "Hip-hop rooted in UK scenes: local voices, distinctive production and independent rap traditions. An opening selection, with more scenes and artists to follow.",
+      "anchor": true,
+      "x": 825,
+      "y": 1148,
+      "layoutColumn": 0,
+      "territories": [
+        "hip-hop"
+      ],
+      "featuredArtists": [
+        "jehst",
+        "four-owls",
+        "jam-baxter",
+        "ocean-wisdom",
+        "strange-u"
+      ]
     }
   ],
   "links": [
@@ -3838,6 +3878,21 @@ window.YUZ_DATA = {
       "source": "deep-house",
       "target": "uk-garage",
       "type": "related"
+    },
+    {
+      "source": "uk-hip-hop",
+      "target": "alternative-hip-hop",
+      "type": "proximity"
+    },
+    {
+      "source": "uk-hip-hop",
+      "target": "abstract-hip-hop",
+      "type": "proximity"
+    },
+    {
+      "source": "uk-hip-hop",
+      "target": "experimental-hip-hop",
+      "type": "proximity"
     }
   ],
   "editorial": {

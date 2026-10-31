@@ -43,7 +43,7 @@
  </header>
  <section class="intro" aria-labelledby="title">
   <div><p class="eyebrow">THE INDEPENDENT MUSIC ATLAS &nbsp; / &nbsp; 001</p><h1 id="title">Follow the sound<span class="dot">.</span></h1><p class="subtitle">Explore the connections between musical genres, scenes and movements.</p></div>
-  <div class="count"><div><strong id="statGenres">00</strong> SUBGENRES &amp; SCENES</div><div><strong id="statConnections">00</strong> EDITORIAL CONNECTIONS</div><div>EDITION 0.9 / OCT 2026</div></div>
+  <div class="count"><div><strong id="statGenres">00</strong> SUBGENRES &amp; SCENES</div><div><strong id="statConnections">00</strong> EDITORIAL CONNECTIONS</div><div>EDITION 0.10 / OCT 2026</div></div>
  </section>
    <div class="toolbar">
          <nav class="families" id="families" aria-label="Explore musical territories">
@@ -127,7 +127,7 @@ if(filter==='all'&&!selected){document.getElementById('artistList').replaceChild
 const artists=window.YUZ_ARTISTS||[];let matches=[],message='';
 if(selected){matches=artists.filter(a=>a.genres.includes(selected));message=matches.length?'':'No artists here yet.';}
 else{matches=filter==='all'?artists:artists.filter(a=>a.territories.includes(filter));}
-if(selected==='deconstructed'){const priority=['lorenzosenni','alfredo-violante-widmer'];matches.sort((a,b)=>(priority.includes(a.id)?priority.indexOf(a.id):99)-(priority.includes(b.id)?priority.indexOf(b.id):99));}
+const priority=selected?(byId.get(selected).featuredArtists||[]):[];if(priority.length)matches.sort((a,b)=>(priority.includes(a.id)?priority.indexOf(a.id):Infinity)-(priority.includes(b.id)?priority.indexOf(b.id):Infinity));
 document.getElementById('artistContext').textContent=message;document.getElementById('artistContext').hidden=!message;
 const list=document.getElementById('artistList');const cards=matches.map((a,i)=>`<article class="artist-card"${i>=5?' hidden data-more-card':''}><div class="artist-top"><h3>${esc(a.name)}</h3></div><p class="featured-record">${esc(a.recording.title)}</p><div class="player-slot" data-player="${esc(a.id)}"></div><details class="artist-more"><summary>More</summary><p>${esc(a.note)}</p><p class="listen-links">Listen on: ${Object.entries(a.listenOn).map(([label,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`).join(' · ')}</p><a class="support-link" href="${esc(a.recording.url)}" target="_blank" rel="noopener noreferrer">Support · buy this release ↗</a><div class="genre-tags">${a.genres.map(id=>`<button type="button" data-artist-genre="${esc(id)}">${esc(byId.get(id).name)}</button>`).join('')}</div></details></article>`).join('');
 list.innerHTML=cards+(matches.length>5?'<button type="button" class="show-artists" id="showArtists">More artists ↓</button>':'');

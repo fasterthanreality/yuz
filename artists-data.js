@@ -29,14 +29,12 @@ window.YUZ_ARTISTS = [
     "name": "Burial",
     "genres": [
       "dubstep",
-      "uk-garage",
-      "ambient"
+      "uk-garage"
     ],
     "territories": [
-      "electronic",
-      "ambient"
+      "electronic"
     ],
-    "note": "A route between UK bass, fractured garage and ambient space.",
+    "note": "Fractured garage rhythms, voices and bass: a defining record in Burial’s UK electronic sound.",
     "url": "https://burial.bandcamp.com/",
     "recording": {
       "title": "Untrue",
@@ -1327,6 +1325,347 @@ window.YUZ_ARTISTS = [
       "Bandcamp": "https://alfredoviolantewidmer.bandcamp.com/track/ergonomic"
     },
     "source": "https://alfredoviolantewidmer.bandcamp.com/track/ergonomic",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "aphex-twin",
+    "name": "Aphex Twin",
+    "genres": [
+      "idm"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Intricate breakbeats and playful melodies: a defining route into IDM.",
+    "url": "https://aphextwin.bandcamp.com/",
+    "recording": {
+      "title": "Richard D. James Album",
+      "url": "https://aphextwin.bandcamp.com/album/richard-d-james-album",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3912122318/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://aphextwin.bandcamp.com/album/richard-d-james-album"
+    },
+    "source": "https://aphextwin.bandcamp.com/album/richard-d-james-album",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "boards-of-canada",
+    "name": "Boards of Canada",
+    "genres": [
+      "idm"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Weathered melodies, analogue textures and off-centre beats.",
+    "url": "https://boardsofcanada.bandcamp.com/",
+    "recording": {
+      "title": "Music Has The Right To Children",
+      "url": "https://boardsofcanada.bandcamp.com/album/music-has-the-right-to-children",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3297123711/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://boardsofcanada.bandcamp.com/album/music-has-the-right-to-children"
+    },
+    "source": "https://boardsofcanada.bandcamp.com/album/music-has-the-right-to-children",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "squarepusher",
+    "name": "Squarepusher",
+    "genres": [
+      "idm"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Hyperactive programmed breaks meeting virtuosic bass and jazz phrasing.",
+    "url": "https://squarepusher.bandcamp.com/",
+    "recording": {
+      "title": "Feed Me Weird Things (Remastered)",
+      "url": "https://squarepusher.bandcamp.com/album/feed-me-weird-things-remastered",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1350758245/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://squarepusher.bandcamp.com/album/feed-me-weird-things-remastered"
+    },
+    "source": "https://squarepusher.bandcamp.com/album/feed-me-weird-things-remastered",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "mu-ziq",
+    "name": "µ-Ziq",
+    "genres": [
+      "idm"
+    ],
+    "territories": [
+      "electronic"
+    ],
+    "note": "Detailed breakbeats and vivid melodies from Mike Paradinas.",
+    "url": "https://mikeparadinas.bandcamp.com/",
+    "recording": {
+      "title": "Lunatic Harness (25th Anniversary Edition)",
+      "url": "https://mikeparadinas.bandcamp.com/album/lunatic-harness-25th-anniversary-edition",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2263894772/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://mikeparadinas.bandcamp.com/album/lunatic-harness-25th-anniversary-edition"
+    },
+    "source": "https://mikeparadinas.bandcamp.com/album/lunatic-harness-25th-anniversary-edition",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "chris-watson",
+    "name": "Chris Watson",
+    "genres": [
+      "soundscape",
+      "field-recording"
+    ],
+    "territories": [
+      "ambient"
+    ],
+    "note": "Environmental listening through recordings made above and below the surface of the ocean.",
+    "url": "https://chriswatsonreleases.bandcamp.com/",
+    "recording": {
+      "title": "Planet Ocean",
+      "url": "https://chriswatsonreleases.bandcamp.com/album/planet-ocean",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=309765409/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://chriswatsonreleases.bandcamp.com/album/planet-ocean"
+    },
+    "source": "https://chriswatsonreleases.bandcamp.com/album/planet-ocean",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "hildegard-westerkamp",
+    "name": "Hildegard Westerkamp",
+    "genres": [
+      "soundscape",
+      "field-recording",
+      "electroacoustic",
+      "acousmatic",
+      "musique-concrete"
+    ],
+    "territories": [
+      "ambient"
+    ],
+    "note": "Soundwalks and environmental recordings shaped into soundscape compositions.",
+    "url": "https://empreintesdigitales.bandcamp.com/",
+    "recording": {
+      "title": "Transformations",
+      "url": "https://empreintesdigitales.bandcamp.com/album/transformations",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3696236992/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://empreintesdigitales.bandcamp.com/album/transformations"
+    },
+    "source": "https://empreintesdigitales.bandcamp.com/album/transformations",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "jana-winderen",
+    "name": "Jana Winderen",
+    "genres": [
+      "soundscape",
+      "field-recording"
+    ],
+    "territories": [
+      "ambient"
+    ],
+    "note": "Underwater recordings reveal the hidden sounds of marine environments.",
+    "url": "https://janawinderen.bandcamp.com/",
+    "recording": {
+      "title": "Energy Field",
+      "url": "https://janawinderen.bandcamp.com/album/energy-field",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1642838320/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://janawinderen.bandcamp.com/album/energy-field"
+    },
+    "source": "https://janawinderen.bandcamp.com/album/energy-field",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "toshiya-tsunoda",
+    "name": "Toshiya Tsunoda",
+    "genres": [
+      "soundscape",
+      "field-recording"
+    ],
+    "territories": [
+      "ambient"
+    ],
+    "note": "Location recordings and voices explore the relationship between sound, place and perception.",
+    "url": "https://blacktruffle.bandcamp.com/",
+    "recording": {
+      "title": "Landscape and Voice",
+      "url": "https://blacktruffle.bandcamp.com/album/landscape-and-voice",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=4006054808/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://blacktruffle.bandcamp.com/album/landscape-and-voice"
+    },
+    "source": "https://blacktruffle.bandcamp.com/album/landscape-and-voice",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "lawrence-english",
+    "name": "Lawrence English",
+    "genres": [
+      "soundscape",
+      "field-recording"
+    ],
+    "territories": [
+      "ambient"
+    ],
+    "note": "Wind recorded in Patagonia and Antarctica becomes an immersive listening environment.",
+    "url": "https://lawrenceenglish.bandcamp.com/",
+    "recording": {
+      "title": "Viento",
+      "url": "https://lawrenceenglish.bandcamp.com/album/viento",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1026743961/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://lawrenceenglish.bandcamp.com/album/viento"
+    },
+    "source": "https://lawrenceenglish.bandcamp.com/album/viento",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "four-owls",
+    "name": "The Four Owls",
+    "genres": [
+      "uk-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Four UK MCs over Leaf Dog’s sample-driven boom-bap production.",
+    "url": "https://thefourowls.bandcamp.com/",
+    "recording": {
+      "title": "Natural Order",
+      "url": "https://thefourowls.bandcamp.com/album/natural-order",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2269935948/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://thefourowls.bandcamp.com/album/natural-order"
+    },
+    "source": "https://thefourowls.bandcamp.com/album/natural-order",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "jehst",
+    "name": "Jehst",
+    "genres": [
+      "uk-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Narrative rap and detailed production from a longstanding voice in UK hip-hop.",
+    "url": "https://jehst.bandcamp.com/",
+    "recording": {
+      "title": "Billy Green is Dead",
+      "url": "https://jehst.bandcamp.com/album/billy-green-is-dead",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3473201899/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://jehst.bandcamp.com/album/billy-green-is-dead"
+    },
+    "source": "https://jehst.bandcamp.com/album/billy-green-is-dead",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "jam-baxter",
+    "name": "Jam Baxter",
+    "genres": [
+      "uk-hip-hop",
+      "alternative-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Surreal lyricism and shadowy production from the UK underground.",
+    "url": "https://jambaxter.bandcamp.com/",
+    "recording": {
+      "title": "Fetch The Poison",
+      "url": "https://jambaxter.bandcamp.com/album/fetch-the-poison",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=227363537/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://jambaxter.bandcamp.com/album/fetch-the-poison"
+    },
+    "source": "https://jambaxter.bandcamp.com/album/fetch-the-poison",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "ocean-wisdom",
+    "name": "Ocean Wisdom",
+    "genres": [
+      "uk-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Rapid, rhythmically precise UK rap spanning boom bap and bass-heavy production.",
+    "url": "https://oceanwisdom.bandcamp.com/",
+    "recording": {
+      "title": "Wizville",
+      "url": "https://oceanwisdom.bandcamp.com/album/wizville",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2465805515/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://oceanwisdom.bandcamp.com/album/wizville"
+    },
+    "source": "https://oceanwisdom.bandcamp.com/album/wizville",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "strange-u",
+    "name": "Strange U",
+    "genres": [
+      "uk-hip-hop",
+      "alternative-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "King Kashmere and Zygote combine sci-fi lyricism with leftfield hip-hop production.",
+    "url": "https://strangeuniverse.bandcamp.com/",
+    "recording": {
+      "title": "#LP4080",
+      "url": "https://strangeuniverse.bandcamp.com/album/lp4080",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1174385738/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://strangeuniverse.bandcamp.com/album/lp4080"
+    },
+    "source": "https://strangeuniverse.bandcamp.com/album/lp4080",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "lee-scott",
+    "name": "Lee Scott",
+    "genres": [
+      "uk-hip-hop",
+      "alternative-hip-hop"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Laconic Northern lyricism over Dirty Dike’s jazz-funk production.",
+    "url": "https://leescott.bandcamp.com/",
+    "recording": {
+      "title": "Butter Fly",
+      "url": "https://leescott.bandcamp.com/album/butter-fly",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=672678591/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://leescott.bandcamp.com/album/butter-fly"
+    },
+    "source": "https://leescott.bandcamp.com/album/butter-fly",
     "checked": "2026-10-31"
   }
 ];
