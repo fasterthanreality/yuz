@@ -1,6 +1,6 @@
 /* YUZ Atlas catalogue — editorial draft. See README before changing connections. */
 window.YUZ_DATA = {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "date": "2026-10-31",
   "scope": "Expandable, editorially curated taxonomy of connected musical genres, scenes, approaches and descriptive terms. Not a directory of reviewed releases. Relationships are interpretive, and dates approximate.",
   "families": [
@@ -2601,6 +2601,21 @@ window.YUZ_DATA = {
       "territories": [
         "electronic"
       ]
+    },
+    {
+      "id": "deep-house",
+      "name": "Deep house",
+      "family": "electronic",
+      "territories": [
+        "electronic"
+      ],
+      "year": 1985,
+      "x": 70,
+      "y": 820,
+      "type": "genre",
+      "anchor": true,
+      "layoutColumn": 0,
+      "description": "A broad house tradition centred on groove, spacious arrangements and harmonic depth. YUZ selects individual listening routes within it rather than treating every artist or release as interchangeable."
     }
   ],
   "links": [
@@ -3807,6 +3822,21 @@ window.YUZ_DATA = {
     {
       "source": "electro",
       "target": "deconstructed",
+      "type": "related"
+    },
+    {
+      "source": "deep-house",
+      "target": "ambient-house",
+      "type": "related"
+    },
+    {
+      "source": "deep-house",
+      "target": "dub-techno",
+      "type": "related"
+    },
+    {
+      "source": "deep-house",
+      "target": "uk-garage",
       "type": "related"
     }
   ],
