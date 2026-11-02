@@ -1,7 +1,7 @@
 /* YUZ Atlas catalogue — editorial draft. See README before changing connections. */
 window.YUZ_DATA = {
-  "version": "0.11.0",
-  "date": "2026-10-31",
+  "version": "0.12.0",
+  "date": "2026-11-02",
   "scope": "Expandable, editorially curated taxonomy of connected musical genres, scenes, approaches and descriptive terms. Not a directory of reviewed releases. Relationships are interpretive, and dates approximate.",
   "families": [
     {
@@ -15,36 +15,36 @@ window.YUZ_DATA = {
       "id": "alt-rock",
       "label": "Alt rock",
       "heading": "ALT ROCK",
-      "x": 1440,
+      "x": 1260,
       "y": 40
     },
     {
       "id": "alt-pop",
       "label": "Alt pop",
       "heading": "ALT POP",
-      "x": 2030,
-      "y": 40
+      "x": 1260,
+      "y": 520
     },
     {
       "id": "acoustic",
       "label": "Acoustic",
       "heading": "ACOUSTIC",
       "x": 260,
-      "y": 780
+      "y": 970
     },
     {
       "id": "hip-hop",
       "label": "Hip-hop",
       "heading": "HIP-HOP",
-      "x": 850,
-      "y": 780
+      "x": 660,
+      "y": 580
     },
     {
       "id": "ambient",
       "label": "Ambient",
       "heading": "AMBIENT",
-      "x": 1440,
-      "y": 780
+      "x": 710,
+      "y": 40
     },
     {
       "id": "latin",
@@ -70,7 +70,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Bass-led urgency, fractured guitars and adventurous production in music reshaping punk beyond its initial framework.",
       "anchor": true,
-      "x": 1280,
+      "x": 1100,
       "y": 120,
       "layoutColumn": 0,
       "territories": [
@@ -85,7 +85,7 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "New generations revisiting post-punk tensions through contemporary indie and art-rock songwriting.",
       "anchor": true,
-      "x": 1550,
+      "x": 1370,
       "y": 120,
       "layoutColumn": 0,
       "territories": [
@@ -100,7 +100,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Punk energy pushed toward angular forms, experimental structures and conceptual performance.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 152,
       "layoutColumn": 0,
       "territories": [
@@ -115,7 +115,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Post-punk instrumentation with taut, danceable grooves, bass patterns and rhythms borrowed from club culture.",
       "anchor": true,
-      "x": 1550,
+      "x": 1370,
       "y": 152,
       "layoutColumn": 0,
       "territories": [
@@ -130,7 +130,7 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "A short-lived New York movement rejecting conventional rock structure through dissonance and radical performance.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 184,
       "layoutColumn": 0,
       "territories": [
@@ -145,7 +145,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Rock built from feedback, abrasive tone and physical repetition rather than conventional polish.",
       "anchor": true,
-      "x": 1550,
+      "x": 1370,
       "y": 184,
       "layoutColumn": 0,
       "territories": [
@@ -160,7 +160,7 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Minimal, chilly post-punk electronics and stripped-back melancholy, especially associated with European scenes.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 216,
       "layoutColumn": 0,
       "territories": [
@@ -175,7 +175,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Melancholic post-punk and synth-based music with dark melodic and atmospheric textures.",
       "anchor": false,
-      "x": 1550,
+      "x": 1370,
       "y": 216,
       "layoutColumn": 0,
       "territories": [
@@ -190,7 +190,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "A darker post-punk tradition emphasising dramatic vocals, reverberant guitars and shadowed atmospheres.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 248,
       "layoutColumn": 0,
       "territories": [
@@ -205,8 +205,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Hazy, immersive melodic pop built on textural guitar and studio atmosphere.",
       "anchor": true,
-      "x": 1870,
-      "y": 120,
+      "x": 1100,
+      "y": 600,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -220,7 +220,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Dense, effects-treated guitar layers, blurred vocals and immersive volume.",
       "anchor": true,
-      "x": 1550,
+      "x": 1370,
       "y": 248,
       "layoutColumn": 0,
       "territories": [
@@ -235,7 +235,7 @@ window.YUZ_DATA = {
       "type": "hybrid",
       "description": "A crossing of black-metal intensity and shoegaze texture.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 280,
       "layoutColumn": 0,
       "territories": [
@@ -250,7 +250,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Rock instrumentation used for long-form texture, repetition, dynamics and often non-vocal forms.",
       "anchor": true,
-      "x": 1550,
+      "x": 1370,
       "y": 280,
       "layoutColumn": 0,
       "territories": [
@@ -265,7 +265,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Interlocking riffs, asymmetrical metre and intricate guitar-led rhythmic arrangements.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 312,
       "layoutColumn": 0,
       "territories": [
@@ -280,7 +280,7 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Exploratory German rock scenes joining repetition, electronic experimentation and unconventional forms.",
       "anchor": true,
-      "x": 1550,
+      "x": 1370,
       "y": 312,
       "layoutColumn": 0,
       "territories": [
@@ -295,7 +295,7 @@ window.YUZ_DATA = {
       "type": "sonic characteristic",
       "description": "A steady propulsive pulse associated with some krautrock; a rhythmic approach rather than a distinct genre.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 344,
       "layoutColumn": 0,
       "territories": [
@@ -310,8 +310,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Bright melody set against deliberately rough, distorted guitar textures.",
       "anchor": false,
-      "x": 2140,
-      "y": 120,
+      "x": 1370,
+      "y": 600,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -325,7 +325,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "A broad alternative-rock tradition shaped by independent scenes, evolving sound and DIY infrastructure.",
       "anchor": false,
-      "x": 1550,
+      "x": 1370,
       "y": 344,
       "layoutColumn": 0,
       "territories": [
@@ -340,7 +340,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Rock transformed through studio experimentation, altered timbre and expanded song structures.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 376,
       "layoutColumn": 0,
       "territories": [
@@ -355,8 +355,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Concise pop forms stretched with psychedelia, collage and unusual harmonic colour.",
       "anchor": false,
-      "x": 1870,
-      "y": 152,
+      "x": 1100,
+      "y": 632,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -370,7 +370,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Raw, urgent punk-derived rock drawing on stripped-back garage-band approaches.",
       "anchor": false,
-      "x": 1550,
+      "x": 1370,
       "y": 376,
       "layoutColumn": 0,
       "territories": [
@@ -385,7 +385,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Sparse, slow-moving indie rock with restrained dynamics and carefully exposed emotion.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 408,
       "layoutColumn": 0,
       "territories": [
@@ -400,7 +400,7 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A broad meeting place for rock projects that challenge conventional instrumentation and form.",
       "anchor": false,
-      "x": 1550,
+      "x": 1370,
       "y": 408,
       "layoutColumn": 0,
       "territories": [
@@ -662,8 +662,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Pop melodies fused with videogame timbres, digital noise and chip-inspired synthesis.",
       "anchor": false,
-      "x": 2140,
-      "y": 152,
+      "x": 1370,
+      "y": 632,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -707,8 +707,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Music focused on environment, space and sustained attention rather than foregrounded song or dance structures.",
       "anchor": true,
-      "x": 1280,
-      "y": 860,
+      "x": 550,
+      "y": 120,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -722,8 +722,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Shadowed atmospheres and low-frequency tension explored through slowly unfolding electronic textures.",
       "anchor": true,
-      "x": 1550,
-      "y": 860,
+      "x": 820,
+      "y": 120,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -737,8 +737,8 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Long sustained tones and evolving harmonics; a practice spanning experimental, folk, metal and ambient music.",
       "anchor": true,
-      "x": 1280,
-      "y": 892,
+      "x": 550,
+      "y": 152,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -752,8 +752,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "A darker, sparse ambient tendency associated with solitude, abstraction and austere sound design.",
       "anchor": false,
-      "x": 1550,
-      "y": 892,
+      "x": 820,
+      "y": 152,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -767,8 +767,8 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Very quiet, small-scale recorded or electronic sounds placed under close listening.",
       "anchor": false,
-      "x": 1280,
-      "y": 924,
+      "x": 550,
+      "y": 184,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -782,8 +782,8 @@ window.YUZ_DATA = {
       "type": "practice",
       "description": "Recorded environmental sound used as documentation or transformed into musical composition.",
       "anchor": false,
-      "x": 1550,
-      "y": 924,
+      "x": 820,
+      "y": 184,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -797,8 +797,8 @@ window.YUZ_DATA = {
       "type": "sonic characteristic",
       "description": "Compositions built around environments, spatial listening and the sounds of places. This selection centres on artists whose sustained practice explores those ideas.",
       "anchor": true,
-      "x": 1280,
-      "y": 956,
+      "x": 550,
+      "y": 216,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -819,8 +819,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Dub mixing techniques, bass weight and echo meeting atmospheric electronic spaces.",
       "anchor": false,
-      "x": 1550,
-      "y": 956,
+      "x": 820,
+      "y": 216,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -834,8 +834,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Expansive electronic ambience evoking distance, immersion and imagined environments.",
       "anchor": false,
-      "x": 1280,
-      "y": 988,
+      "x": 550,
+      "y": 248,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -849,8 +849,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A wide field of contemplative, melodic and wellness-associated instrumental music.",
       "anchor": false,
-      "x": 1550,
-      "y": 988,
+      "x": 820,
+      "y": 248,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -864,8 +864,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "House rhythm and atmospheric sound design blended into spacious listening and dance forms.",
       "anchor": false,
-      "x": 1280,
-      "y": 1020,
+      "x": 550,
+      "y": 280,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -879,8 +879,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Pop songwriting surrounded by ambient space, diffuse production and soft-edged textures.",
       "anchor": false,
-      "x": 1870,
-      "y": 184,
+      "x": 1100,
+      "y": 664,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -894,8 +894,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Gothic and dream-pop related music built from airy vocals, textural instruments and spacious production.",
       "anchor": false,
-      "x": 1550,
-      "y": 1020,
+      "x": 820,
+      "y": 280,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -909,8 +909,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Ceremonial, repetitive and often dark atmospheric music drawing on ritualistic imagery.",
       "anchor": false,
-      "x": 1280,
-      "y": 1052,
+      "x": 550,
+      "y": 312,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -924,8 +924,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Amplified heavy music built from sustained distortion, long tones and extreme durations.",
       "anchor": false,
-      "x": 1550,
-      "y": 1052,
+      "x": 820,
+      "y": 312,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -939,8 +939,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "Compositional practices combining electronic sound with acoustic or recorded material.",
       "anchor": true,
-      "x": 1280,
-      "y": 1084,
+      "x": 550,
+      "y": 344,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -954,8 +954,8 @@ window.YUZ_DATA = {
       "type": "practice",
       "description": "Fixed-media sound composition intended for listening without seeing the source of the sounds.",
       "anchor": false,
-      "x": 1550,
-      "y": 1084,
+      "x": 820,
+      "y": 344,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -969,8 +969,8 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Compositional use of edited recorded sound rather than relying only on notation or instruments.",
       "anchor": false,
-      "x": 1280,
-      "y": 1116,
+      "x": 550,
+      "y": 376,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -984,8 +984,8 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "Sound composed or transformed through recording tape manipulation and playback techniques.",
       "anchor": false,
-      "x": 1550,
-      "y": 1116,
+      "x": 820,
+      "y": 376,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -999,8 +999,8 @@ window.YUZ_DATA = {
       "type": "approach",
       "description": "A concept linking electronic ambience with reimagined transnational instrumental traditions.",
       "anchor": false,
-      "x": 1280,
-      "y": 1148,
+      "x": 550,
+      "y": 408,
       "layoutColumn": 0,
       "territories": [
         "ambient",
@@ -1015,8 +1015,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Sequenced synthesiser figures, long-form electronic composition and cosmic atmospheres.",
       "anchor": false,
-      "x": 1550,
-      "y": 1148,
+      "x": 820,
+      "y": 408,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1030,8 +1030,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A widely used but imprecise label for contemporary instrumental music involving classical forms and modern production.",
       "anchor": false,
-      "x": 1280,
-      "y": 1180,
+      "x": 550,
+      "y": 440,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1045,8 +1045,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Contemporary composition often merging acoustic instrumental writing with electronic textures.",
       "anchor": false,
-      "x": 1550,
-      "y": 1180,
+      "x": 820,
+      "y": 440,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1061,7 +1061,7 @@ window.YUZ_DATA = {
       "description": "Independent, experimental and hybrid folk approaches beyond conventional revival categories.",
       "anchor": true,
       "x": 100,
-      "y": 860,
+      "y": 1050,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1076,7 +1076,7 @@ window.YUZ_DATA = {
       "description": "Folk-rooted songwriting within independent music cultures and contemporary production.",
       "anchor": true,
       "x": 370,
-      "y": 860,
+      "y": 1050,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1091,7 +1091,7 @@ window.YUZ_DATA = {
       "description": "Eclectic, psychedelic and nonconformist acoustic music linked to 2000s independent scenes.",
       "anchor": true,
       "x": 100,
-      "y": 892,
+      "y": 1082,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1106,7 +1106,7 @@ window.YUZ_DATA = {
       "description": "Folk instrumentation and song structures stretched with psychedelic moods and arrangements.",
       "anchor": true,
       "x": 370,
-      "y": 892,
+      "y": 1082,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1121,7 +1121,7 @@ window.YUZ_DATA = {
       "description": "Acoustic folk materials interwoven with electronic processing, sampling and rhythmic programming.",
       "anchor": true,
       "x": 100,
-      "y": 924,
+      "y": 1114,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1136,7 +1136,7 @@ window.YUZ_DATA = {
       "description": "A useful descriptive label for folk-informed music using glitch editing and digital fragmentation; not a settled genre boundary.",
       "anchor": false,
       "x": 370,
-      "y": 924,
+      "y": 1114,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1151,7 +1151,7 @@ window.YUZ_DATA = {
       "description": "Folk-informed songwriting with detailed chamber-style acoustic arrangements.",
       "anchor": false,
       "x": 100,
-      "y": 956,
+      "y": 1146,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1166,7 +1166,7 @@ window.YUZ_DATA = {
       "description": "Songwriters challenging folk conventions with punk attitude, humour or blunt realism.",
       "anchor": false,
       "x": 370,
-      "y": 956,
+      "y": 1146,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1181,7 +1181,7 @@ window.YUZ_DATA = {
       "description": "Folk-rooted music exploring darker storytelling, sparse arrangements and ominous atmosphere.",
       "anchor": false,
       "x": 100,
-      "y": 988,
+      "y": 1178,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1196,7 +1196,7 @@ window.YUZ_DATA = {
       "description": "Punk urgency, political directness and folk instrumentation or songwriting.",
       "anchor": false,
       "x": 370,
-      "y": 988,
+      "y": 1178,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1211,7 +1211,7 @@ window.YUZ_DATA = {
       "description": "Folk instrumentation, performance and cultural materials pushed beyond expected forms.",
       "anchor": false,
       "x": 100,
-      "y": 1020,
+      "y": 1210,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1226,7 +1226,7 @@ window.YUZ_DATA = {
       "description": "A psychedelic folk tendency linked to late-1960s and 1970s experimental acoustic music.",
       "anchor": false,
       "x": 370,
-      "y": 1020,
+      "y": 1210,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1241,7 +1241,7 @@ window.YUZ_DATA = {
       "description": "Folk writing or acoustic instruments blended with spacious drones and atmospheric textures.",
       "anchor": false,
       "x": 100,
-      "y": 1052,
+      "y": 1242,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1256,7 +1256,7 @@ window.YUZ_DATA = {
       "description": "Folk-rooted instrumentation and singing with sustained drones or static harmonic spaces.",
       "anchor": false,
       "x": 370,
-      "y": 1052,
+      "y": 1242,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1271,7 +1271,7 @@ window.YUZ_DATA = {
       "description": "Country songwriting reframed through independent rock and roots experimentation.",
       "anchor": false,
       "x": 100,
-      "y": 1084,
+      "y": 1274,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1286,11 +1286,12 @@ window.YUZ_DATA = {
       "description": "Song-centred music associated with artists composing and performing their own material.",
       "anchor": false,
       "x": 370,
-      "y": 1084,
+      "y": 1274,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
-      ]
+      ],
+      "published": false
     },
     {
       "id": "traditional-folk",
@@ -1301,7 +1302,7 @@ window.YUZ_DATA = {
       "description": "A broad context for inherited and community-rooted musical traditions; not one globally uniform genre.",
       "anchor": false,
       "x": 100,
-      "y": 1116,
+      "y": 1306,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1316,7 +1317,7 @@ window.YUZ_DATA = {
       "description": "Folk songwriting integrated with rock instrumentation and production.",
       "anchor": false,
       "x": 370,
-      "y": 1116,
+      "y": 1306,
       "layoutColumn": 0,
       "territories": [
         "acoustic"
@@ -1390,8 +1391,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Hip-hop rhythms and vocal approaches intersecting with industrial distortion and sampling.",
       "anchor": false,
-      "x": 690,
-      "y": 860,
+      "x": 500,
+      "y": 660,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -1480,7 +1481,7 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Punk immediacy driven by synthesiser patterns and abrasive electronic timbres.",
       "anchor": false,
-      "x": 1280,
+      "x": 1100,
       "y": 440,
       "layoutColumn": 0,
       "territories": [
@@ -1555,8 +1556,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Degraded pop-memory, warped nostalgia and DIY recordings that blurred the line between familiar media and dream.",
       "anchor": true,
-      "x": 2140,
-      "y": 184,
+      "x": 1370,
+      "y": 664,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1570,8 +1571,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Hazy synthesizers, softened beats and nostalgic pop textures circulated through late-2000s music blogs.",
       "anchor": false,
-      "x": 1870,
-      "y": 216,
+      "x": 1100,
+      "y": 696,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1615,8 +1616,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Reverberant retail ambience: distant muzak, public-space field recordings and the sound of an empty shopping centre.",
       "anchor": false,
-      "x": 1280,
-      "y": 1212,
+      "x": 550,
+      "y": 472,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1645,8 +1646,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Weather broadcasts, station idents and other transmissions edited into the sound of unreliable media memory.",
       "anchor": false,
-      "x": 1550,
-      "y": 1212,
+      "x": 820,
+      "y": 472,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1660,8 +1661,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Slow-moving ambient vaporwave: long-form, densely reverberant loops designed for immersion.",
       "anchor": false,
-      "x": 1280,
-      "y": 1244,
+      "x": 550,
+      "y": 504,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1705,8 +1706,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Cinematic ambient atmospheres and imagined nocturnal futures, often connected to vaporwave communities.",
       "anchor": false,
-      "x": 1550,
-      "y": 1244,
+      "x": 820,
+      "y": 504,
       "layoutColumn": 0,
       "territories": [
         "ambient"
@@ -1750,8 +1751,8 @@ window.YUZ_DATA = {
       "type": "precursor",
       "description": "Pop built around electronic production and synthesis; a broad pre-existing language later exaggerated by online scenes.",
       "anchor": false,
-      "x": 2140,
-      "y": 216,
+      "x": 1370,
+      "y": 696,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1765,8 +1766,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Hyperreal, glossy, plastic-sounding pop associated with the PC Music movement and related producers.",
       "anchor": false,
-      "x": 1870,
-      "y": 248,
+      "x": 1100,
+      "y": 728,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1810,8 +1811,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A contested umbrella for maximalist and digitally manipulated pop, spanning different scenes and generations.",
       "anchor": true,
-      "x": 2140,
-      "y": 248,
+      "x": 1370,
+      "y": 728,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1825,8 +1826,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "A Discord- and SoundCloud-linked community mixing pop distortion, trap, pitch processing and DIY collaboration.",
       "anchor": true,
-      "x": 1870,
-      "y": 280,
+      "x": 1100,
+      "y": 760,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1840,8 +1841,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Breakneck, meme-literate sample collage associated with Jane Remover’s leroy project and online remix culture.",
       "anchor": false,
-      "x": 2140,
-      "y": 280,
+      "x": 1370,
+      "y": 760,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1855,8 +1856,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "A loose internet scene revisiting MySpace-era electronic emo and scene aesthetics through contemporary production.",
       "anchor": false,
-      "x": 1870,
-      "y": 312,
+      "x": 1100,
+      "y": 792,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1870,8 +1871,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Pop songwriting incorporating edits, digital stutters and fragmented audio as prominent musical material.",
       "anchor": false,
-      "x": 2140,
-      "y": 312,
+      "x": 1370,
+      "y": 792,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -1885,8 +1886,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "An experimental pop label and network foregrounding artificiality, hyperreal sound and digital pop spectacle.",
       "anchor": true,
-      "x": 1870,
-      "y": 344,
+      "x": 1100,
+      "y": 824,
       "layoutColumn": 0,
       "territories": [
         "alt-pop"
@@ -2267,12 +2268,20 @@ window.YUZ_DATA = {
       "year": 2001,
       "type": "genre",
       "description": "UK MC culture and angular electronic beats rooted in pirate radio and local urban music scenes.",
-      "anchor": false,
-      "x": 260,
-      "y": 708,
+      "anchor": true,
+      "x": 440,
+      "y": 620,
       "layoutColumn": 0,
       "territories": [
-        "electronic"
+        "electronic",
+        "hip-hop"
+      ],
+      "featuredArtists": [
+        "ruff-sqwad",
+        "jammz",
+        "d-double-e",
+        "flowdan",
+        "novelist"
       ]
     },
     {
@@ -2388,8 +2397,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Hazy pads, submerged drums and atmospheric production associated with early internet rap networks.",
       "anchor": true,
-      "x": 960,
-      "y": 860,
+      "x": 770,
+      "y": 660,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2403,8 +2412,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "A broad platform-linked rap wave spanning DIY recording, distorted mixes, emo influences and regional styles.",
       "anchor": true,
-      "x": 690,
-      "y": 892,
+      "x": 500,
+      "y": 692,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2418,8 +2427,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Rap integrated with confessional emo, rock guitar and melodic writing, accelerated by online communities.",
       "anchor": false,
-      "x": 960,
-      "y": 892,
+      "x": 770,
+      "y": 692,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2433,8 +2442,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Bright synth loops, buoyant melodies and minimal trap drums associated with independent producer networks.",
       "anchor": false,
-      "x": 690,
-      "y": 924,
+      "x": 500,
+      "y": 724,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2448,8 +2457,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Plugg rhythms filtered through lush R&B chords, melodic vocal runs and atmospheric synth textures.",
       "anchor": false,
-      "x": 960,
-      "y": 924,
+      "x": 770,
+      "y": 724,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2463,8 +2472,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "High-impact trap with saturated synthetic leads and emphatic, high-energy rhythmic arrangements.",
       "anchor": true,
-      "x": 690,
-      "y": 956,
+      "x": 500,
+      "y": 756,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2478,8 +2487,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Occult-coded online rap centred on chopped mixing, bitcrushing, pitch manipulation and abrasive digital effects.",
       "anchor": false,
-      "x": 960,
-      "y": 956,
+      "x": 770,
+      "y": 756,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2493,8 +2502,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Aggressively bitcrushed, pitch-shifted rap and trance-associated mixing aesthetic from internet communities.",
       "anchor": false,
-      "x": 690,
-      "y": 988,
+      "x": 500,
+      "y": 788,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2508,8 +2517,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Off-kilter, quick-moving internet rap reworking the earlier jerk sound with new synth and low-end approaches.",
       "anchor": false,
-      "x": 960,
-      "y": 988,
+      "x": 770,
+      "y": 788,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2523,8 +2532,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "Club-energy rap and electronic hybrids with heavily processed vocal and bass sounds.",
       "anchor": false,
-      "x": 690,
-      "y": 1020,
+      "x": 500,
+      "y": 820,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2538,8 +2547,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Memphis-rap-derived sample textures and distorted underground hip-hop practices, later taking varied forms online.",
       "anchor": false,
-      "x": 960,
-      "y": 1020,
+      "x": 770,
+      "y": 820,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2553,8 +2562,8 @@ window.YUZ_DATA = {
       "type": "microgenre",
       "description": "A later electronically intensified phonk branch associated with cowbells, heavy bass and short-form video.",
       "anchor": false,
-      "x": 690,
-      "y": 1052,
+      "x": 500,
+      "y": 852,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2568,8 +2577,8 @@ window.YUZ_DATA = {
       "type": "genre",
       "description": "Hip-hop informed by collage, unusual beats and experimental lyrical or instrumental structures.",
       "anchor": false,
-      "x": 960,
-      "y": 1052,
+      "x": 770,
+      "y": 852,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2583,8 +2592,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "Hip-hop that departs from dominant commercial sounds through distinctive sonic and artistic approaches.",
       "anchor": true,
-      "x": 690,
-      "y": 1084,
+      "x": 500,
+      "y": 884,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2598,8 +2607,8 @@ window.YUZ_DATA = {
       "type": "umbrella",
       "description": "Open-ended hip-hop using exploratory composition, unconventional timbre and hybrid influences.",
       "anchor": false,
-      "x": 960,
-      "y": 1084,
+      "x": 770,
+      "y": 884,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2643,8 +2652,8 @@ window.YUZ_DATA = {
       "type": "scene",
       "description": "Hip-hop rooted in UK scenes: local voices, distinctive production and independent rap traditions. An opening selection, with more scenes and artists to follow.",
       "anchor": true,
-      "x": 825,
-      "y": 1148,
+      "x": 635,
+      "y": 948,
       "layoutColumn": 0,
       "territories": [
         "hip-hop"
@@ -2655,6 +2664,42 @@ window.YUZ_DATA = {
         "jam-baxter",
         "ocean-wisdom",
         "strange-u"
+      ]
+    },
+    {
+      "id": "drill",
+      "name": "Drill",
+      "family": "hip-hop",
+      "year": 2010,
+      "type": "genre",
+      "description": "A rap tradition originating in Chicago, with distinct UK and New York developments. Stark rhythms, forceful delivery and local storytelling connect these scenes.",
+      "anchor": true,
+      "x": 590,
+      "y": 790,
+      "territories": [
+        "hip-hop"
+      ],
+      "featuredArtists": [
+        "chief-keef",
+        "67",
+        "headie-one-rv",
+        "unknown-t",
+        "digga-d"
+      ]
+    },
+    {
+      "id": "uk-drill",
+      "name": "UK drill",
+      "family": "hip-hop",
+      "year": 2012,
+      "type": "scene",
+      "description": "The UK development of drill, with sliding bass, syncopated drums and a close relationship to London’s wider bass and rap culture.",
+      "anchor": true,
+      "x": 510,
+      "y": 705,
+      "territories": [
+        "hip-hop",
+        "electronic"
       ]
     }
   ],
@@ -3893,6 +3938,46 @@ window.YUZ_DATA = {
       "source": "uk-hip-hop",
       "target": "experimental-hip-hop",
       "type": "proximity"
+    },
+    {
+      "source": "grime",
+      "target": "uk-hip-hop",
+      "type": "related"
+    },
+    {
+      "source": "grime",
+      "target": "uk-garage",
+      "type": "related"
+    },
+    {
+      "source": "grime",
+      "target": "uk-drill",
+      "type": "related"
+    },
+    {
+      "source": "uk-drill",
+      "target": "drill",
+      "type": "related"
+    },
+    {
+      "source": "uk-drill",
+      "target": "uk-hip-hop",
+      "type": "related"
+    },
+    {
+      "source": "uk-drill",
+      "target": "uk-bass",
+      "type": "related"
+    },
+    {
+      "source": "drill",
+      "target": "uk-hip-hop",
+      "type": "related"
+    },
+    {
+      "source": "idm",
+      "target": "ambient",
+      "type": "related"
     }
   ],
   "editorial": {

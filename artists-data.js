@@ -344,8 +344,7 @@ window.YUZ_ARTISTS = [
     "id": "williamtyler",
     "name": "William Tyler",
     "genres": [
-      "experimental-folk",
-      "singer-songwriter"
+      "experimental-folk"
     ],
     "territories": [
       "acoustic",
@@ -881,8 +880,7 @@ window.YUZ_ARTISTS = [
     "name": "Jessica Pratt",
     "genres": [
       "psych-folk",
-      "alternative-folk",
-      "singer-songwriter"
+      "alternative-folk"
     ],
     "territories": [
       "acoustic"
@@ -905,8 +903,7 @@ window.YUZ_ARTISTS = [
     "name": "Adrianne Lenker",
     "genres": [
       "indie-folk",
-      "alternative-folk",
-      "singer-songwriter"
+      "alternative-folk"
     ],
     "territories": [
       "acoustic"
@@ -929,8 +926,7 @@ window.YUZ_ARTISTS = [
     "name": "Lomelda",
     "genres": [
       "indie-folk",
-      "indie-rock",
-      "singer-songwriter"
+      "indie-rock"
     ],
     "territories": [
       "acoustic",
@@ -1689,5 +1685,232 @@ window.YUZ_ARTISTS = [
     },
     "source": "https://plaid.bandcamp.com/album/the-digging-remedy",
     "checked": "2026-10-31"
+  },
+  {
+    "id": "jammz",
+    "name": "Jammz",
+    "genres": [
+      "grime"
+    ],
+    "territories": [
+      "electronic",
+      "hip-hop"
+    ],
+    "note": "A route into grime’s MC and producer culture.",
+    "url": "https://iamgrime.bandcamp.com/",
+    "recording": {
+      "title": "Warrior EP",
+      "url": "https://iamgrime.bandcamp.com/album/warrior-ep",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=2304219728/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://iamgrime.bandcamp.com/album/warrior-ep"
+    },
+    "source": "https://iamgrime.bandcamp.com/album/warrior-ep",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "ruff-sqwad",
+    "name": "Ruff Sqwad",
+    "genres": [
+      "grime"
+    ],
+    "territories": [
+      "electronic",
+      "hip-hop"
+    ],
+    "note": "A route into grime’s MC and producer culture.",
+    "url": "https://nohatsnohoods.bandcamp.com/",
+    "recording": {
+      "title": "White Label Classics",
+      "url": "https://nohatsnohoods.bandcamp.com/album/white-label-classics",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=3025627633/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://nohatsnohoods.bandcamp.com/album/white-label-classics"
+    },
+    "source": "https://nohatsnohoods.bandcamp.com/album/white-label-classics",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "flowdan",
+    "name": "Flowdan",
+    "genres": [
+      "grime"
+    ],
+    "territories": [
+      "electronic",
+      "hip-hop"
+    ],
+    "note": "A route into grime’s MC and producer culture.",
+    "url": "https://flowdanuk.bandcamp.com/",
+    "recording": {
+      "title": "Disaster Piece",
+      "url": "https://flowdanuk.bandcamp.com/album/disaster-piece",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1869721801/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://flowdanuk.bandcamp.com/album/disaster-piece"
+    },
+    "source": "https://flowdanuk.bandcamp.com/album/disaster-piece",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "d-double-e",
+    "name": "D Double E",
+    "genres": [
+      "grime"
+    ],
+    "territories": [
+      "electronic",
+      "hip-hop"
+    ],
+    "note": "A route into grime’s MC and producer culture.",
+    "url": "https://itsddoublee.bandcamp.com/",
+    "recording": {
+      "title": "Go Get It",
+      "url": "https://itsddoublee.bandcamp.com/album/go-get-it-2",
+      "embed": "https://bandcamp.com/EmbeddedPlayer/album=1435715564/size=small/bgcol=111111/linkcol=ffffff/artwork=small/transparent=true/"
+    },
+    "listenOn": {
+      "Bandcamp": "https://itsddoublee.bandcamp.com/album/go-get-it-2"
+    },
+    "source": "https://itsddoublee.bandcamp.com/album/go-get-it-2",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "novelist",
+    "name": "Novelist",
+    "genres": [
+      "grime"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "A representative recording from the UK scene.",
+    "url": "https://novelist.lnk.to/NovelistGuy",
+    "recording": {
+      "title": "Novelist Guy",
+      "url": "https://novelist.lnk.to/NovelistGuy"
+    },
+    "listenOn": {
+      "Official listening links": "https://novelist.lnk.to/NovelistGuy"
+    },
+    "source": "https://novelist.lnk.to/NovelistGuy",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "chief-keef",
+    "name": "Chief Keef",
+    "genres": [
+      "drill"
+    ],
+    "territories": [
+      "hip-hop"
+    ],
+    "note": "Chicago drill’s early wave.",
+    "url": "https://www.youtube.com/watch?v=Bb3YbUBB0zI",
+    "recording": {
+      "title": "I Don’t Like (feat. Lil Reese)",
+      "url": "https://www.youtube.com/watch?v=Bb3YbUBB0zI"
+    },
+    "listenOn": {
+      "YouTube": "https://www.youtube.com/watch?v=Bb3YbUBB0zI"
+    },
+    "source": "https://www.youtube.com/watch?v=Bb3YbUBB0zI",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "67",
+    "name": "67",
+    "genres": [
+      "drill",
+      "uk-drill"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "A representative recording from the UK scene.",
+    "url": "https://audiomack.com/67/album/lets-lurk",
+    "recording": {
+      "title": "Let’s Lurk",
+      "url": "https://audiomack.com/67/album/lets-lurk"
+    },
+    "listenOn": {
+      "Audiomack": "https://audiomack.com/67/album/lets-lurk"
+    },
+    "source": "https://audiomack.com/67/album/lets-lurk",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "headie-one-rv",
+    "name": "Headie One & RV",
+    "genres": [
+      "drill",
+      "uk-drill"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "A representative recording from the UK scene.",
+    "url": "https://www.youtube.com/watch?v=9PhfxxObL2I",
+    "recording": {
+      "title": "Know Better",
+      "url": "https://www.youtube.com/watch?v=9PhfxxObL2I"
+    },
+    "listenOn": {
+      "YouTube": "https://www.youtube.com/watch?v=9PhfxxObL2I"
+    },
+    "source": "https://www.youtube.com/watch?v=9PhfxxObL2I",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "unknown-t",
+    "name": "Unknown T",
+    "genres": [
+      "drill",
+      "uk-drill"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "A representative recording from the UK scene.",
+    "url": "https://www.youtube.com/watch?v=mMwIxWKP_OY",
+    "recording": {
+      "title": "Homerton B",
+      "url": "https://www.youtube.com/watch?v=mMwIxWKP_OY"
+    },
+    "listenOn": {
+      "YouTube": "https://www.youtube.com/watch?v=mMwIxWKP_OY"
+    },
+    "source": "https://www.youtube.com/watch?v=mMwIxWKP_OY",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "digga-d",
+    "name": "Digga D",
+    "genres": [
+      "drill",
+      "uk-drill"
+    ],
+    "territories": [
+      "hip-hop",
+      "electronic"
+    ],
+    "note": "A representative recording from the UK scene.",
+    "url": "https://www.youtube.com/watch?v=izsnQ0SXFyQ",
+    "recording": {
+      "title": "Woi",
+      "url": "https://www.youtube.com/watch?v=izsnQ0SXFyQ"
+    },
+    "listenOn": {
+      "YouTube": "https://www.youtube.com/watch?v=izsnQ0SXFyQ"
+    },
+    "source": "https://www.youtube.com/watch?v=izsnQ0SXFyQ",
+    "checked": "2026-11-02"
   }
 ];
