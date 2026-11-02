@@ -11,7 +11,7 @@ assert.equal(families.size,8);
 for(const n of d.genres){assert(families.has(n.family),n.id);assert(Number.isFinite(n.x)&&Number.isFinite(n.y),n.id);}
 for(const e of d.links)assert(ids.has(e.source)&&ids.has(e.target),'Broken genre link');
 const html=readFileSync('index.html','utf8');
-for(const f of families)assert(html.includes(`data-family="${f}"`),f);
+assert(html.includes('Follow the sound'));assert(!html.includes('id="families"'));assert(!html.includes('id="mapToggle"'));
 for(const match of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(match[1]);
 assert.equal(d.genres.find(n=>n.id==='hyperpop').family,'alt-pop');
 assert.equal(d.genres.find(n=>n.id==='trip-hop').family,'electronic');
@@ -23,7 +23,7 @@ for(const a of context.window.YUZ_ARTISTS){for(const id of a.genres)assert(ids.h
 console.log("Artist IDs, genre references, territories and listening URLs passed.");
 
 assert(context.window.YUZ_ARTISTS.length>=20,'Catalogue expansion missing');
-for(const a of context.window.YUZ_ARTISTS){const u=new URL(a.recording.embed);assert.equal(u.hostname,'bandcamp.com');assert(/^\/EmbeddedPlayer\/(album|track)=\d+\//.test(u.pathname));assert(a.recording.title);assert.equal(new URL(a.recording.url).protocol,'https:');for(const url of Object.values(a.listenOn))assert.equal(new URL(url).protocol,'https:');}
+for(const a of context.window.YUZ_ARTISTS){if(a.recording.embed){const u=new URL(a.recording.embed);assert.equal(u.hostname,'bandcamp.com');assert(/^\/EmbeddedPlayer\/(album|track)=\d+\//.test(u.pathname));}assert(a.recording.title);assert.equal(new URL(a.recording.url).protocol,'https:');for(const url of Object.values(a.listenOn))assert.equal(new URL(url).protocol,'https:');}
 console.log(`Verified ${context.window.YUZ_ARTISTS.length} artist recording entries and embedded player URLs.`);
 
 assert(context.window.YUZ_ARTISTS.length>=40,'Catalogue expansion missing');

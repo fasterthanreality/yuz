@@ -26,3 +26,5 @@ assert(!artists.find(a=>a.id==='burial').genres.includes('soundscape'),'Burial m
 console.log('Featured selections passed: five direct artists for each priority sound.');
 
 assert(!visible.nodes.some(n=>n.id==='isolationism'),'Unpopulated Isolationism must remain unpublished');
+
+assert(!visible.nodes.some(n=>n.id==='singer-songwriter'));for(const id of ['grime','drill','uk-drill'])assert(visible.nodes.some(n=>n.id===id),id+' must be available');
